@@ -6,14 +6,10 @@ setworldspawn 34 63 -50
         
         # Scoreboards
 
-#Ambience
 scoreboard objectives add ambience dummy
 scoreboard objectives add ambience_random dummy
-
-#If player has left the game.
+scoreboard objectives add crucifixed dummy
 scoreboard objectives add joined minecraft.custom:minecraft.leave_game
-
-
 scoreboard objectives add playerminimumdoor dummy
 scoreboard objectives add playerminimumroomsdoor dummy
 scoreboard objectives add max_door_reached dummy
