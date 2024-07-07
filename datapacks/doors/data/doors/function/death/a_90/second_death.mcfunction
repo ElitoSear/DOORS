@@ -21,8 +21,8 @@ execute at @s if score @s guiding_light_message matches 830 positioned ~2.15 ~1.
 execute at @s if score @s guiding_light_message matches 840 positioned ~2.15 ~1.5 ~ run data merge entity @e[tag=guiding_light_message,limit=1,sort=nearest] {text:'{"color":"#EDE5AA","translate": "death.a90.second_4"}'}
 execute at @s if score @s guiding_light_message matches 960 positioned ~2.15 ~1.5 ~ run data merge entity @e[tag=guiding_light_message,limit=1,sort=nearest] {text:'{"color":"#EDE5AA","text": ""}'}
 
-execute if score @s guiding_light_message matches 960 run stopsound @s * custom:music.curious_light
-execute if score @s guiding_light_message matches 960 at @s run playsound custom:music.curious_light_end master @s ~ ~ ~ 0.6
+execute if score @s guiding_light_message matches 960 run stopsound @s * doors:music.curious_light
+execute if score @s guiding_light_message matches 960 at @s run playsound doors:music.curious_light_end master @s ~ ~ ~ 0.6
 
 execute if score @s guiding_light_message matches 960 run title @s times 80t 0t 0t
 execute if score @s guiding_light_message matches 960 run title @s title {"text": "\uE024"}

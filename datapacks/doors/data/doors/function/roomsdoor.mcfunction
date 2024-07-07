@@ -8,7 +8,7 @@ execute if score @s roomsdoornumber = max_door roomsdoornumber run tag @s add ro
 execute unless score @s roomsdoornumber = max_door roomsdoornumber run tag @s remove roomslatest
 #A-60
         #Summoning
-execute if entity @s[scores={a60=2}] at @s run execute as @a[tag=atrooms] at @s run playsound custom:entity.a60.arrival master @s ~ ~ ~
+execute if entity @s[scores={a60=2}] at @s run execute as @a[tag=atrooms] at @s run playsound doors:entity.a60.arrival master @s ~ ~ ~
 execute if entity @s[scores={a60=78}] run scoreboard players operation @a[tag=lastroomsplayer] roomssummoningsubstraction = @a[tag=lastroomsplayer] playercurrentroomsdoor
 execute if entity @s[scores={a60=79}] run scoreboard players remove @a[tag=lastroomsplayer] roomssummoningsubstraction 2
 execute if entity @s[scores={a60=79}] run execute as @e[tag=roomsdoor] if score @s generating matches 13 if score @s roomsdoornumber < @a[tag=lastroomsplayer,limit=1] roomssummoningsubstraction run tag @s add destroy

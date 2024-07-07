@@ -1,7 +1,7 @@
-stopsound @a * custom:entity.halt.ambience
-stopsound @a * custom:entity.halt.whisper
-stopsound @a * custom:entity.halt.whistlesf
-stopsound @a * custom:entity.halt.whistlesdistorted
+stopsound @a * doors:entity.halt.ambience
+stopsound @a * doors:entity.halt.whisper
+stopsound @a * doors:entity.halt.whistlesf
+stopsound @a * doors:entity.halt.whistlesdistorted
 effect clear @a[tag=athalt] blindness
 effect clear @a[tag=athalt] darkness
 clear @a[tag=athalt] string{CustomModelData:36}

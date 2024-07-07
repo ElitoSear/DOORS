@@ -10,5 +10,5 @@ execute if score @s breakernumber matches 7 run data merge entity @e[tag=screenn
 execute if score @s breakernumber matches 8 run data merge entity @e[tag=screennumber,limit=1] {item:{id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:13}}}
 execute if score @s breakernumber matches 9 run data merge entity @e[tag=screennumber,limit=1] {item:{id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:14}}}
 execute if score @s breakernumber matches 10 run data merge entity @e[tag=screennumber,limit=1] {item:{id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:5}}}
-execute at @e[tag=protectbreaker] if score @s breaker matches 1 run playsound custom:misc.switch_on master @a ~ ~2 ~
-execute at @e[tag=protectbreaker] if score @s breaker matches 0 run playsound custom:misc.switch_off master @a ~ ~2 ~
+execute at @e[tag=protectbreaker] if score @s breaker matches 1 run playsound doors:misc.switch_on master @a ~ ~2 ~
+execute at @e[tag=protectbreaker] if score @s breaker matches 0 run playsound doors:misc.switch_off master @a ~ ~2 ~

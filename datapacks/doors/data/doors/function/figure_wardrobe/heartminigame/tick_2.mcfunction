@@ -1,6 +1,6 @@
 data merge entity @e[tag=figure,limit=1] {NoAI:1b}
 execute align y run tp @e[tag=figure] ^ ^ ^2 facing entity @a[tag=atfigure,limit=1,sort=nearest]
-execute on passengers at @s run playsound custom:misc.heart_minigame master @s
+execute on passengers at @s run playsound doors:misc.heart_minigame master @s
 execute align y run summon interaction ^ ^1 ^ {Tags:["clickdetector"],response:1b}
 execute align y run summon item_display ^ ^1.25 ^0.5 {Tags:["heartminigameleft"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:55}}}
 execute align y run summon item_display ^ ^1.25 ^0.5 {Tags:["heartminigameright"],item:{id:"minecraft:stick",Count:1b,tag:{CustomModelData:54}}}

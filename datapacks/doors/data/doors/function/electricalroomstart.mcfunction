@@ -29,7 +29,7 @@ execute if entity @s[scores={electricalstart=2}] run tag @a[gamemode=adventure] 
 execute if entity @s[scores={electricalstart=2}] as @e[tag=door] if score @s doornumber matches 1..98 run tag @s add destroy
 execute if entity @s[scores={electricalstart=2}] at @s run tag @e[tag=automaticdoor,limit=1,sort=nearest] add closed
 execute if entity @s[scores={electricalstart=2}] at @s run summon armor_stand ^16 ^-1 ^-42.51 {Tags:["camera"],NoGravity:1,Invisible:1}
-execute if entity @s[scores={electricalstart=2}] at @s run playsound custom:misc.electrical_room_lever_door master @a ^14 ^-1 ^-45.5
+execute if entity @s[scores={electricalstart=2}] at @s run playsound doors:misc.electrical_room_lever_door master @a ^14 ^-1 ^-45.5
 execute if entity @s[scores={electricalstart=2}] at @s as @e[tag=electricalroomslidingdoor] run data merge entity @s {transformation:{translation:[0.0f,0.0f,-4.01f]},start_interpolation:0,interpolation_duration:134}
 execute if entity @s[scores={electricalstart=3}] at @s run tp @e[tag=camera] ^16 ^-1 ^-42.51 facing ^17 ^-1 ^-44.5
 execute if entity @s[scores={electricalstart=3}] run gamemode spectator @a[tag=!atrooms]
@@ -154,7 +154,7 @@ execute if entity @s[scores={electricalcinematic2=40}] at @s align xyz run fill 
 execute if entity @s[scores={electricalcinematic2=40}] at @s align xyz run fill ^13 ^-1 ^-31 ^15 ^1 ^-31 barrier replace air
 execute if entity @s[scores={electricalcinematic2=40}] at @s align xyz run setblock ^7 ^-2 ^-19 fire replace
 execute if entity @s[scores={electricalcinematic2=46}] at @s run scoreboard players reset @a unhinged2
-execute if entity @s[scores={electricalcinematic2=46}] at @s run stopsound @a * custom:music.unhinged_2
+execute if entity @s[scores={electricalcinematic2=46}] at @s run stopsound @a * doors:music.unhinged_2
 execute if entity @s[scores={electricalcinematic2=46}] at @s run scoreboard players add @a unhinged2intense 1
 execute if entity @s[scores={electricalcinematic2=60}] at @s run tp @e[tag=camera] ^14.5 ^1.6 ^-21.01 facing ^12 ^-3 ^-17.51
 
@@ -224,7 +224,7 @@ execute if entity @s[scores={electricalcinematic3=2}] at @s run summon armor_sta
 execute if entity @s[scores={electricalcinematic3=2}] at @s run tp @e[tag=camera] ^24.0 ^5.5 ^-48.51 facing ^25.5 ^4 ^-50.01
 execute if entity @s[scores={electricalcinematic3=60..100}] as @e[tag=camera] at @s run tp @s ^ ^ ^-0.01
 execute if entity @s[scores={electricalcinematic3=101}] at @s run tp @e[tag=camera] ^1.5 ^ ^-45.51 facing ^-2.5 ^ ^-45.51
-execute if entity @s[scores={electricalcinematic3=104}] at @e[tag=wherefigureis] run playsound custom:entity.seek.knocks master @a
+execute if entity @s[scores={electricalcinematic3=104}] at @e[tag=wherefigureis] run playsound doors:entity.seek.knocks master @a
 execute if entity @s[scores={electricalcinematic3=104}] at @e[tag=wherefigureis] positioned ^ ^ ^-2 run playsound entity.zombified_piglin.angry master @a
 execute if entity @s[scores={electricalcinematic3=102..132}] as @e[tag=camera] at @s run tp @s ^ ^ ^-0.01
 execute if entity @s[scores={electricalcinematic3=60}] at @s run gamemode spectator @a[tag=!atrooms]
@@ -245,7 +245,7 @@ execute if entity @s[scores={electricalcinematic3=201..405}] at @s if score play
 execute if entity @s[scores={electricalcinematic3=201}] at @s if score player_count playercount matches 2.. run gamemode spectator @a[tag=!winner]
 execute if entity @s[scores={electricalcinematic3=201}] at @s unless score player_count playercount matches 2.. run gamemode spectator @a
 execute if entity @s[scores={electricalcinematic3=201}] at @s run scoreboard players reset @a unhinged2intense
-execute if entity @s[scores={electricalcinematic3=201}] at @s run stopsound @a * custom:music.unhinged_2_intense
+execute if entity @s[scores={electricalcinematic3=201}] at @s run stopsound @a * doors:music.unhinged_2_intense
 execute if entity @s[scores={electricalcinematic3=201..1238}] at @s as @a at @s run spectate @e[tag=camera,limit=1]
 execute if entity @s[scores={electricalcinematic3=201}] at @s run fill ^23 ^5 ^-51 ^25 ^7 ^-51 iron_bars
 execute if entity @s[scores={electricalcinematic3=201}] at @s run summon armor_stand ^25.5 ^6 ^-49.51 {Tags:["camera"],NoGravity:1,Invisible:1}
@@ -253,7 +253,7 @@ execute if entity @s[scores={electricalcinematic3=201}] at @s run tp @e[tag=came
 execute if entity @s[scores={electricalcinematic3=235}] at @s run tp @e[tag=camera] ^24 ^4.9 ^-47.01 facing ^24 ^4.9 ^-51.51
 execute if entity @s[scores={electricalcinematic3=235}] at @s run tp @e[tag=figure] ^24 ^4.5 ^-51.51 facing ^24 ^4.5 ^-50.51
 execute if entity @s[scores={electricalcinematic3=235}] at @s run data merge entity @e[tag=figure,limit=1] {NoAI:1b,Silent:1b}
-execute if entity @s[scores={electricalcinematic3=235}] at @s as @a at @s run playsound custom:music.elevator_jammed voice @s
+execute if entity @s[scores={electricalcinematic3=235}] at @s as @a at @s run playsound doors:music.elevator_jammed voice @s
 execute if entity @s[scores={electricalcinematic3=235}] at @s as @a at @e[tag=figure] run playsound entity.zombified_piglin.angry master @s
 execute if entity @s[scores={electricalcinematic3=301}] at @s as @a at @e[tag=figure] run playsound entity.zombified_piglin.ambient master @s
 execute if entity @s[scores={electricalcinematic3=860}] at @s as @a at @e[tag=figure] run playsound entity.zombified_piglin.ambient master @s

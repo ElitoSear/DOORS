@@ -48,14 +48,14 @@ execute as @e[tag=door,scores={doornumber=100}] run function doors:electricalroo
 
 execute as @e[scores={electricallight=2}] at @s run setblock ~ ~1 ~ end_rod[facing=down]
 execute as @e[scores={electricallight=70}] at @s run setblock ~ ~1 ~ calcite
-execute as @e[scores={electricallight=70}] at @s run playsound custom:misc.electrical_roof_light master @a ~ ~1 ~
+execute as @e[scores={electricallight=70}] at @s run playsound doors:misc.electrical_roof_light master @a ~ ~1 ~
 scoreboard players add @e[scores={electricallight=1..}] electricallight 1
 scoreboard players set @e[tag=electricalroomlight,scores={electricallight=150..}] electricallight 1
 
-execute as @a[scores={unhinged2=2}] at @s run playsound custom:music.unhinged_2_intense voice @s
-execute as @a[scores={unhinged2=200}] run stopsound @s * custom:music.unhinged_2_intense
+execute as @a[scores={unhinged2=2}] at @s run playsound doors:music.unhinged_2_intense voice @s
+execute as @a[scores={unhinged2=200}] run stopsound @s * doors:music.unhinged_2_intense
 execute as @a[scores={unhinged2=1054..}] run scoreboard players set @s unhinged2 201
-execute as @a[scores={unhinged2=201}] at @s run playsound custom:music.unhinged_2 voice @s
+execute as @a[scores={unhinged2=201}] at @s run playsound doors:music.unhinged_2 voice @s
 execute as @a[scores={unhinged2=1..}] run scoreboard players add @s unhinged2 1
 
 execute as @e[tag=switch,tag=powered] run scoreboard players set @s breaker 1
@@ -121,7 +121,7 @@ execute as @e[tag=figure] at @s if entity @e[scores={electricalcinematic2=115..1
 
 
 
-execute as @a[scores={unhinged2intense=2}] at @s run playsound custom:music.unhinged_2_intense voice @s
+execute as @a[scores={unhinged2intense=2}] at @s run playsound doors:music.unhinged_2_intense voice @s
 scoreboard players set @a[scores={unhinged2intense=853..}] unhinged2intense 1
 scoreboard players add @a[scores={unhinged2intense=1..}] unhinged2intense 1
 

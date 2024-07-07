@@ -6,7 +6,7 @@ execute if entity @s[y_rotation=-134..-46] at @s unless entity @s[scores={stop=1
         #Checking his step
 execute at @s run tag @e[tag=roomsentitypath,distance=..1.5] add a60checked
         #Killing itself
-execute if entity @s[tag=stop] run stopsound @a * custom:entity.a60.arrival
+execute if entity @s[tag=stop] run stopsound @a * doors:entity.a60.arrival
 execute if entity @s[tag=stop] run scoreboard players reset @e[scores={a60=1..}] a60
 execute if entity @s[tag=stop] run kill @s
         #Displaying Particles

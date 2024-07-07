@@ -1,16 +1,16 @@
 
-execute if score @s guiding_light_message matches 2 run playsound custom:music.guiding_light master @s[tag=!atrooms]
+execute if score @s guiding_light_message matches 2 run playsound doors:music.guiding_light master @s[tag=!atrooms]
 execute if score @s guiding_light_message matches 2 positioned 34.5 72.0 -50.5 rotated -90 0 run function doors:guiding_light/tp_loop
 execute if score @s guiding_light_message matches 8.. at @s as @e[type=armor_stand,tag=guiding_light] if score @s guiding_light_id = @p guiding_light_id run spectate @s @p
 
-execute if entity @s[tag=atrooms] if score @s guiding_light_message matches 2 run stopsound @s * custom:music.guiding_light
-execute if entity @s[tag=atrooms] if score @s guiding_light_message matches 2 run playsound custom:music.curious_light master @s
+execute if entity @s[tag=atrooms] if score @s guiding_light_message matches 2 run stopsound @s * doors:music.guiding_light
+execute if entity @s[tag=atrooms] if score @s guiding_light_message matches 2 run playsound doors:music.curious_light master @s
 
 #Executing while the player is reciving the guiding light message
 execute if score @s guiding_light_message matches 2.. run stopsound @s * weather.rain
 execute if score @s guiding_light_message matches 2.. run stopsound @s * weather.rain.above
-execute if score @s guiding_light_message matches 2.. run stopsound @s * custom:entity.ambush.far
-execute if score @s guiding_light_message matches 2.. run stopsound @s * custom:entity.rush.far
+execute if score @s guiding_light_message matches 2.. run stopsound @s * doors:entity.ambush.far
+execute if score @s guiding_light_message matches 2.. run stopsound @s * doors:entity.rush.far
 
 execute if score @s guiding_light_message matches 2 run title @s times 0t 0t 50t
 execute if score @s guiding_light_message matches 2 run title @s title {"text": "\uE024"}

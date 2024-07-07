@@ -10,7 +10,7 @@
   "effects": {
     "fog_color": 12638463,
     "ambient_sound": {
-      "sound_id": "custom:ambient.thunder"
+      "sound_id": "doors:ambient.thunder"
     },
     "sky_color": 7907327,
     "water_color": 4159204,

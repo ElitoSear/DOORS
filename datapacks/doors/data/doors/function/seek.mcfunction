@@ -12,9 +12,9 @@ execute if entity @s[scores={seekrun=1..}] run scoreboard players add @s seekrun
 
 execute at @s run tag @e[tag=seekpath,distance=..1] add seekchecked
 execute if entity @s[scores={seekrun=1..}] unless entity @s[scores={crucifixfailed=1..}] unless entity @s[scores={stop=1..}] at @s run tp @s ^ ^ ^0.3 facing entity @e[tag=seekpath,sort=nearest,limit=1,tag=!seekchecked]
-execute if entity @s[scores={stop=2}] at @s run playsound custom:entity.seek.knocks master @a
-execute if entity @s[scores={stop=2}] at @s run stopsound @a * custom:entity.seek.steps_close
-execute if entity @s[scores={stop=2}] at @s run stopsound @a * custom:entity.seek.steps_far
+execute if entity @s[scores={stop=2}] at @s run playsound doors:entity.seek.knocks master @a
+execute if entity @s[scores={stop=2}] at @s run stopsound @a * doors:entity.seek.steps_close
+execute if entity @s[scores={stop=2}] at @s run stopsound @a * doors:entity.seek.steps_far
 execute if entity @s[scores={stop=2}] at @e[tag=automaticdoorseek,tag=seekend,sort=nearest,limit=1] run kill @e[tag=automaticdoor,limit=1,sort=nearest]
 execute if entity @s[scores={stop=2}] at @s run tag @e[tag=automaticdoorseek,sort=nearest,limit=1] add closed
 execute if entity @s[scores={stop=3}] at @s run kill @s

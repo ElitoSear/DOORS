@@ -1,6 +1,6 @@
 execute at @s unless score @s dupescreamer matches 19.. run scoreboard players add @a[distance=..6] dupegrowl 1
 execute at @s run scoreboard players reset @a[distance=6..7] dupegrowl
-execute at @s run stopsound @a[distance=6..7] * custom:entity.dupe.growl
+execute at @s run stopsound @a[distance=6..7] * doors:entity.dupe.growl
 execute at @s if score @s dupescreamer matches 19.. run scoreboard players reset @a[distance=..6] dupegrowl
 
 execute at @s if block ~ ~ ~ dark_oak_door[open=true] unless entity @s[scores={dupescreamer=2..}] run scoreboard players add @s dupescreamer 1

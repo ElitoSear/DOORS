@@ -46,4 +46,4 @@ execute if entity @s[tag=riftednvcs3000] run give @s soul_torch{CustomModelData:
 execute if entity @s[tag=riftednvcs3000] run tag @s remove rifted
 execute if entity @s[tag=riftednvcs3000] run tag @s remove riftednvcs3000
 
-stopsound @s * custom:misc.rift
+stopsound @s * doors:misc.rift

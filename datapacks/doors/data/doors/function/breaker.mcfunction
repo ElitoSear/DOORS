@@ -53,7 +53,7 @@ execute if entity @s[scores={breakerpuzzle=260}] as @e[tag=stage1number10] run f
 execute if entity @s[scores={breakerpuzzle=320}] run function doors:stage1check
 execute if entity @s[scores={breakerpuzzle=350}] run scoreboard players set @s breakerpuzzle 50
 
-execute if entity @s[scores={breakerpuzzle=430}] at @e[tag=protectbreaker] run playsound custom:misc.switches_flick master @a ~ ~1 ~
+execute if entity @s[scores={breakerpuzzle=430}] at @e[tag=protectbreaker] run playsound doors:misc.switches_flick master @a ~ ~1 ~
 execute if entity @s[scores={breakerpuzzle=430}] run tag @e[tag=powered] remove powered
 execute if entity @s[scores={breakerpuzzle=430}] run data merge entity @e[tag=screenprogress,limit=1] {item:{id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:21}}}
 execute if entity @s[scores={breakerpuzzle=432}] run scoreboard players reset progresslevel breakerprogress
@@ -70,7 +70,7 @@ execute if entity @s[scores={breakerpuzzle=580}] as @e[tag=stage2number10] run f
 execute if entity @s[scores={breakerpuzzle=640}] run function doors:stage2check
 execute if entity @s[scores={breakerpuzzle=670}] run scoreboard players set @s breakerpuzzle 431
 
-execute if entity @s[scores={breakerpuzzle=730}] at @e[tag=protectbreaker] run playsound custom:misc.switches_flick master @a ~ ~1 ~
+execute if entity @s[scores={breakerpuzzle=730}] at @e[tag=protectbreaker] run playsound doors:misc.switches_flick master @a ~ ~1 ~
 execute if entity @s[scores={breakerpuzzle=730}] run tag @e[tag=powered] remove powered
 execute if entity @s[scores={breakerpuzzle=730}] run data merge entity @e[tag=screenprogress,limit=1] {item:{id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:21}}}
 execute if entity @s[scores={breakerpuzzle=732}] run scoreboard players reset progresslevel breakerprogress
@@ -87,7 +87,7 @@ execute if entity @s[scores={breakerpuzzle=830}] as @e[tag=stage3number10] run f
 execute if entity @s[scores={breakerpuzzle=890}] run function doors:stage3check
 execute if entity @s[scores={breakerpuzzle=920}] run scoreboard players set @s breakerpuzzle 731
 
-execute if entity @s[scores={breakerpuzzle=1029}] at @e[tag=protectbreaker] run playsound custom:misc.switches_flick master @a ~ ~1 ~
+execute if entity @s[scores={breakerpuzzle=1029}] at @e[tag=protectbreaker] run playsound doors:misc.switches_flick master @a ~ ~1 ~
 execute if entity @s[scores={breakerpuzzle=1029}] run tag @e[tag=powered] remove powered
 execute if entity @s[scores={breakerpuzzle=1029}] run scoreboard players reset progresslevel breakerprogress
 execute if entity @s[scores={breakerpuzzle=1029}] run data merge entity @e[tag=screenprogress,limit=1] {item:{id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:21}}}

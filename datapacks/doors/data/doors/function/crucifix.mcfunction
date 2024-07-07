@@ -1,6 +1,6 @@
 scoreboard players add @s crucifixing 1
-execute if entity @s[scores={crucifixing=1}] at @s if entity @s[tag=failed] run playsound custom:item.crucifix_failed master @a ~ ~ ~ 2
-execute if entity @s[scores={crucifixing=1}] at @s if entity @s[tag=!failed] run playsound custom:item.crucifix master @a ~ ~ ~ 2
+execute if entity @s[scores={crucifixing=1}] at @s if entity @s[tag=failed] run playsound doors:item.crucifix_failed master @a ~ ~ ~ 2
+execute if entity @s[scores={crucifixing=1}] at @s if entity @s[tag=!failed] run playsound doors:item.crucifix master @a ~ ~ ~ 2
 execute if entity @s[scores={crucifixing=1}] at @s run tp @s ~ ~ ~ facing entity @a[sort=nearest,limit=1] feet
 execute if entity @s[scores={crucifixing=1}] at @s run tp @s ~ ~ ~ ~ 0
 execute if entity @s[scores={crucifixing=1}] at @s run fill ~ ~ ~ ~ ~ ~ light[level=15] replace air

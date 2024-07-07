@@ -22,8 +22,8 @@ execute as @e[tag=hand] at @s positioned ^ ^1 ^2 align xyz run execute as @a[dis
 execute as @e[tag=fallen_chandelier] at @s run execute as @a[distance=..1.5] run damage @s 9 minecraft:mob_attack by @e[tag=fallen_chandelier,sort=nearest,limit=1]
 
 execute at @e[tag=seekend,limit=1,sort=nearest] run execute as @e[tag=seek,distance=..2.5] unless entity @s[scores={stop=1..}] run scoreboard players add @s stop 1
-execute at @s align xyz positioned ^ ^-2 ^-43 run stopsound @a[tag=atseek,dx=1.0,dz=1.0] * custom:music.here_i_come
-execute at @s align xyz positioned ^ ^-2 ^-43 run execute as @a[tag=atseek,dx=1.0,dz=1.0] at @s run playsound custom:music.here_i_come_end voice @s
+execute at @s align xyz positioned ^ ^-2 ^-43 run stopsound @a[tag=atseek,dx=1.0,dz=1.0] * doors:music.here_i_come
+execute at @s align xyz positioned ^ ^-2 ^-43 run execute as @a[tag=atseek,dx=1.0,dz=1.0] at @s run playsound doors:music.here_i_come_end voice @s
 execute at @s align xyz positioned ^ ^-2 ^-43 run execute as @a[tag=atseek,dx=1.0,dz=1.0] run attribute @s generic.movement_speed base set 0.1
 execute at @s align xyz positioned ^ ^-2 ^-43 run effect clear @a[tag=atseek,dx=1.0,dz=1.0] invisibility
 execute at @s align xyz positioned ^ ^-2 ^-43 run advancement grant @a[tag=atseek,dx=1.0,dz=1.0] only doors:achievements/achievement11

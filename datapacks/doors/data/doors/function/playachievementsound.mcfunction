@@ -1,1 +1,1 @@
-execute at @s run playsound custom:misc.achievement master @s
+execute at @s run playsound doors:misc.achievement master @s

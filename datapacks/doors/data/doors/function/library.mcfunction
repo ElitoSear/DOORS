@@ -50,7 +50,7 @@ execute as @e[tag=door,scores={doornumber=50}] run function doors:librarystart
 
 execute as @e[tag=figure] at @s run tag @e[tag=figurepathlibrary,distance=..0.5] add checked
 
-execute as @a[scores={librarymusic=2}] at @s run playsound custom:music.unhinged voice @s
+execute as @a[scores={librarymusic=2}] at @s run playsound doors:music.unhinged voice @s
 execute as @a[scores={librarymusic=852..}] run scoreboard players set @s librarymusic 1
 execute as @a[scores={librarymusic=1..852}] run scoreboard players add @s librarymusic 1
 

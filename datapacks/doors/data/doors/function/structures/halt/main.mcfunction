@@ -19,32 +19,32 @@ execute if entity @s[scores={halt=2}] at @s run tag @e[tag=automaticdoor,limit=1
 execute if entity @s[scores={halt=2}] at @s align xyz run fill ^ ^-1 ^ ^ ^-2 ^ barrier
 execute if entity @s[scores={halt=2}] run effect give @a[gamemode=adventure] blindness infinite 0 true
 execute if entity @s[scores={halt=2}] run effect give @a[gamemode=adventure] darkness infinite 0 true
-execute if entity @s[scores={halt=2}] run execute as @a at @s run playsound custom:entity.halt.ambience master @s
+execute if entity @s[scores={halt=2}] run execute as @a at @s run playsound doors:entity.halt.ambience master @s
 execute if entity @s[scores={halt=2}] run tag @a[gamemode=adventure] add athalt
 execute if entity @s[scores={halt=2}] run tag @a[gamemode=adventure] add nooffhandwarning
 execute if entity @s[scores={halt=2}] run tag @a[gamemode=adventure] add screechexemption
-execute if entity @s[scores={halt=2}] run stopsound @a[tag=athalt] * custom:music.here_i_come
+execute if entity @s[scores={halt=2}] run stopsound @a[tag=athalt] * doors:music.here_i_come
 execute if entity @s[scores={halt=2}] run execute as @a[tag=athalt] run attribute @s generic.movement_speed base set 0.1
 execute if entity @s[scores={halt=2}] run effect clear @a[tag=athalt] invisibility
 execute if entity @s[scores={halt=2}] run tag @a[tag=athalt] remove atseek
 execute if entity @s[scores={halt=2}] at @s positioned ^ ^-2 ^-3 run tp @a ^ ^ ^ facing ^ ^ ^-4
 execute if entity @s[scores={halt=69}] at @s positioned ^ ^-2 ^-33 run summon armor_stand ^ ^ ^ {CustomName:'{"text":"Halt","bold":true}',CustomNameVisible:0b,Invisible:1b,Invulnerable:1b,NoBasePlate:1b,NoGravity:1b,ShowArms:1b,Marker:1b,ArmorItems:[{},{},{},{id:"minecraft:string",Count:1b,tag:{CustomModelData:35}}],HandItems:[{id:"soul_torch",Count:1b,tag:{CustomModelData:1}},{}],Tags:["halt"],DisabledSlots:4144959}
-execute if entity @s[scores={halt=60}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.summon master @s ~ ~ ~ 0.5
-execute if entity @s[scores={halt=80}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whisper master @s ~ ~ ~ 0.5
-execute if entity @s[scores={halt=100}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whisper master @s ~ ~ ~ 0.5
-execute if entity @s[scores={halt=110}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whistles master @s ~ ~ ~ 0.5
-execute if entity @s[scores={halt=150}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whisper master @s ~ ~ ~ 0.5
-execute if entity @s[scores={halt=288}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whistles master @s ~ ~ ~ 0.5 0.8
-execute if entity @s[scores={halt=300}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whisper master @s ~ ~ ~ 0.5
-execute if entity @s[scores={halt=350}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whisper master @s ~ ~ ~ 0.5 1.2
-execute if entity @s[scores={halt=450}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whisper master @s ~ ~ ~ 0.5 0.75
-execute if entity @s[scores={halt=466}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whistles master @s ~ ~ ~ 0.5
-execute if entity @s[scores={halt=600}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whisper master @s ~ ~ ~ 0.5
-execute if entity @s[scores={halt=644}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whistles master @s ~ ~ ~ 0.5
-execute if entity @s[scores={halt=730}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whisper master @s ~ ~ ~ 0.5 1.2
-execute if entity @s[scores={halt=800}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whisper master @s ~ ~ ~ 0.5
-execute if entity @s[scores={halt=822}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.distorted master @s ~ ~ ~ 0.3
-execute if entity @s[scores={halt=900}] run execute as @a[tag=athalt] at @s run playsound custom:entity.halt.whisper master @s ~ ~ ~ 0.5
+execute if entity @s[scores={halt=60}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.summon master @s ~ ~ ~ 0.5
+execute if entity @s[scores={halt=80}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whisper master @s ~ ~ ~ 0.5
+execute if entity @s[scores={halt=100}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whisper master @s ~ ~ ~ 0.5
+execute if entity @s[scores={halt=110}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whistles master @s ~ ~ ~ 0.5
+execute if entity @s[scores={halt=150}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whisper master @s ~ ~ ~ 0.5
+execute if entity @s[scores={halt=288}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whistles master @s ~ ~ ~ 0.5 0.8
+execute if entity @s[scores={halt=300}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whisper master @s ~ ~ ~ 0.5
+execute if entity @s[scores={halt=350}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whisper master @s ~ ~ ~ 0.5 1.2
+execute if entity @s[scores={halt=450}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whisper master @s ~ ~ ~ 0.5 0.75
+execute if entity @s[scores={halt=466}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whistles master @s ~ ~ ~ 0.5
+execute if entity @s[scores={halt=600}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whisper master @s ~ ~ ~ 0.5
+execute if entity @s[scores={halt=644}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whistles master @s ~ ~ ~ 0.5
+execute if entity @s[scores={halt=730}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whisper master @s ~ ~ ~ 0.5 1.2
+execute if entity @s[scores={halt=800}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whisper master @s ~ ~ ~ 0.5
+execute if entity @s[scores={halt=822}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.distorted master @s ~ ~ ~ 0.3
+execute if entity @s[scores={halt=900}] run execute as @a[tag=athalt] at @s run playsound doors:entity.halt.whisper master @s ~ ~ ~ 0.5
 
 execute if entity @s[scores={halt=60}] run execute as @a[tag=athalt] at @s run scoreboard players add @s turnaroundwarning 1
 execute if entity @s[scores={halt=70}] at @s positioned ^ ^-2 ^-43.01 run execute as @a[tag=athalt,limit=1,sort=nearest] at @s rotated as @e[scores={halt=70}] run execute as @e[tag=halt,limit=1,sort=nearest] run tp @s ^ ^ ^-9 facing ~ ~ ~
@@ -77,10 +77,10 @@ scoreboard players add @s[scores={halt=1..1112}] halt 1
 
 execute if entity @s[scores={halt=60..}] unless entity @a[tag=athalt] run kill @e[type=armor_stand,tag=halt]
 
-execute at @s align xyz positioned ^ ^-2 ^-91 run stopsound @a[tag=athalt,dx=1.0,dz=1.0] * custom:entity.halt.ambience
-execute at @s align xyz positioned ^ ^-2 ^-91 run stopsound @a[tag=athalt,dx=1.0,dz=1.0] * custom:entity.halt.whisper
-execute at @s align xyz positioned ^ ^-2 ^-91 run stopsound @a[tag=athalt,dx=1.0,dz=1.0] * custom:entity.halt.whistles
-execute at @s align xyz positioned ^ ^-2 ^-91 run stopsound @a[tag=athalt,dx=1.0,dz=1.0] * custom:entity.halt.distorted
+execute at @s align xyz positioned ^ ^-2 ^-91 run stopsound @a[tag=athalt,dx=1.0,dz=1.0] * doors:entity.halt.ambience
+execute at @s align xyz positioned ^ ^-2 ^-91 run stopsound @a[tag=athalt,dx=1.0,dz=1.0] * doors:entity.halt.whisper
+execute at @s align xyz positioned ^ ^-2 ^-91 run stopsound @a[tag=athalt,dx=1.0,dz=1.0] * doors:entity.halt.whistles
+execute at @s align xyz positioned ^ ^-2 ^-91 run stopsound @a[tag=athalt,dx=1.0,dz=1.0] * doors:entity.halt.distorted
 execute at @s align xyz positioned ^ ^-2 ^-91 run effect clear @a[tag=athalt,dx=1.0,dz=1.0] blindness
 execute at @s align xyz positioned ^ ^-2 ^-91 run effect clear @a[tag=athalt,dx=1.0,dz=1.0] darkness
 execute at @s align xyz positioned ^ ^-2 ^-91 run tag @a[tag=athalt,dx=1.0,dz=1.0] remove screechexemption

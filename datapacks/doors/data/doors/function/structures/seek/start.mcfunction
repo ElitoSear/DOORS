@@ -37,7 +37,7 @@ execute if entity @s[scores={seekchasetriggered=2}] run scoreboard players remov
 execute if entity @s[scores={seekchasetriggered=2}] at @s run execute as @e[tag=door] unless score @s doornumber matches 0 if score @s doornumber < @e[tag=door,scores={structurepick=70},limit=1] deleteroomsseekchase run tag @s add destroy
 execute if entity @s[scores={seekchasetriggered=3..127}] at @s run execute as @a run spectate @e[tag=camera,limit=1]
 execute if entity @s[scores={seekchasetriggered=3..23}] at @s run execute as @e[tag=camera] at @s run tp @s ~ ~ ~ ~9 ~
-execute if entity @s[scores={seekchasetriggered=2}] at @s run execute as @a at @s run playsound custom:music.here_i_come voice @s
+execute if entity @s[scores={seekchasetriggered=2}] at @s run execute as @a at @s run playsound doors:music.here_i_come voice @s
 execute if entity @s[scores={seekchasetriggered=2}] at @s run tp @e[tag=camera] ^ ^-2 ^-31
 execute if entity @s[scores={seekchasetriggered=3}] at @s run tp @e[tag=camera] ^ ^-2 ^-29.75
 execute if entity @s[scores={seekchasetriggered=4}] at @s run tp @e[tag=camera] ^ ^-2 ^-28.5
@@ -95,7 +95,7 @@ execute if entity @s[scores={seekchasetriggered=128}] at @s run execute as @a un
 execute if entity @s[scores={seekchasetriggered=128}] at @s run execute as @a unless entity @s[scores={muerte=1..}] unless entity @s[tag=atrooms] run effect give @s invisibility infinite 0 true
 execute if entity @s[scores={seekchasetriggered=128}] at @s run execute as @a unless entity @s[scores={muerte=1..}] unless entity @s[tag=atrooms] run attribute @s generic.movement_speed base set 0.14
 execute if entity @s[scores={seekchasetriggered=128}] at @s run execute as @a unless entity @s[scores={muerte=1..}] unless entity @s[tag=atrooms] run gamemode adventure @s
-execute if entity @s[scores={seekchasetriggered=128}] run execute as @a[tag=atseek,tag=!atrooms] at @s run playsound custom:entity.seek.scream master @s ^ ^ ^-5
+execute if entity @s[scores={seekchasetriggered=128}] run execute as @a[tag=atseek,tag=!atrooms] at @s run playsound doors:entity.seek.scream master @s ^ ^ ^-5
 
 execute at @s align xyz positioned ^ ^-2 ^ run tag @e[tag=rushorambush,dx=1.0,dz=1.0] add stop
 execute if entity @s[tag=flickon] at @s align xyz positioned ^-7 ^-3 ^-1 run fill ^ ^ ^ ^15 ^9 ^-40 light[level=0] replace minecraft:wall_torch[facing=north]

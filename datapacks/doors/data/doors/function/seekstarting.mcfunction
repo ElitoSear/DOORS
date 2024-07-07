@@ -1,4 +1,4 @@
-execute at @e[tag=leader,limit=1] run execute as @a[distance=60..,tag=!atrooms] at @s run playsound custom:entity.void.jumpscare master @s
+execute at @e[tag=leader,limit=1] run execute as @a[distance=60..,tag=!atrooms] at @s run playsound doors:entity.void.jumpscare master @s
 scoreboard players add @s flickering 1
 summon armor_stand ^ ^-2 ^-31 {Tags:["camera"],NoGravity:1,Invisible:1}
 tp @e[tag=camera] ^ ^-2 ^-31 facing ^ ^-2 ^-33

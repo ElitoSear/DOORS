@@ -43,7 +43,7 @@ execute if entity @s[tag=infirmary,scores={generating=3}] run scoreboard players
 #Rush
        #Summoning
 execute if entity @s[scores={rush=2}] run execute as @e[tag=door] run scoreboard players add @s flickering 1
-execute if entity @s[scores={rush=40}] at @s run execute as @a[tag=!atrooms] at @s run playsound custom:entity.rush.arrival master @s ~ ~ ~ 0.5
+execute if entity @s[scores={rush=40}] at @s run execute as @a[tag=!atrooms] at @s run playsound doors:entity.rush.arrival master @s ~ ~ ~ 0.5
 execute if entity @s[scores={rush=61}] at @a[tag=leader,limit=1] run scoreboard players set @a[distance=70..] voidtime 1184
 execute if entity @s[scores={rush=78}] run scoreboard players operation @a[tag=lastplayer] summoningsubtraction = @a[tag=lastplayer] playercurrentdoor
 execute if entity @s[scores={rush=79}] run scoreboard players remove @a[tag=lastplayer] summoningsubtraction 3
@@ -55,7 +55,7 @@ scoreboard players add @s[scores={rush=1..}] rush 1
 
 #Ambush
         #Summoning
-execute if entity @s[scores={ambush=2}] at @s run execute as @a[tag=!atrooms] at @s run playsound custom:entity.ambush.arrival master @s ~ ~ ~ 0.5
+execute if entity @s[scores={ambush=2}] at @s run execute as @a[tag=!atrooms] at @s run playsound doors:entity.ambush.arrival master @s ~ ~ ~ 0.5
 execute if entity @s[scores={ambush=133}] run execute as @e[tag=door] if score @s doornumber <= @e[scores={ambush=133},limit=1] doornumber run tag @s add flickon
 execute if entity @s[scores={ambush=132}] at @a[tag=leader,limit=1] run scoreboard players set @a[distance=70..] voidtime 1184
 execute if entity @s[scores={ambush=134}] run tag @e[tag=flickon] remove flickon
@@ -80,7 +80,7 @@ execute if entity @s[scores={seekroomevent=1}] run scoreboard players add @s fli
 execute if entity @s[scores={seekfinishevent=1}] run scoreboard players add @s flickering 1
 execute if entity @s[scores={seekfinishevent=1}] at @s positioned ^ ^-1 ^-21 run execute as @e[tag=hand,distance=..22] at @s run particle minecraft:block minecraft:glass ^ ^1.5 ^0.5 0.1 0.1 0.1 2 150 normal @a
 execute if entity @s[scores={seekfinishevent=1}] at @s positioned ^ ^-1 ^-21 run execute as @e[tag=hand,distance=..22] at @s run playsound block.glass.break block @a ~ ~1.5 ~
-execute if entity @s[scores={seekfinishevent=10}] at @s positioned ^ ^-1 ^-21 run execute as @a[distance=..22] at @s run playsound custom:entity.seek.scream master @s ^ ^ ^-5
+execute if entity @s[scores={seekfinishevent=10}] at @s positioned ^ ^-1 ^-21 run execute as @a[distance=..22] at @s run playsound doors:entity.seek.scream master @s ^ ^ ^-5
 
 execute if entity @s[scores={seekroomevent=1..12}] run scoreboard players add @s seekroomevent 1
 execute if entity @s[scores={seekfinishevent=1..12}] run scoreboard players add @s seekfinishevent 1

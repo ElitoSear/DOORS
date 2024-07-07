@@ -12,13 +12,13 @@ execute if entity @s[tag=front_countdown,y_rotation=90] at @s align xyz position
 #Countdown
 execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=2}] run data merge entity @s {text:'{"text":"5"}'}
 execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=20}] run data merge entity @s {text:'{"text":"4"}'}
-execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=20}] run playsound custom:misc.elevator_countdown master @a
+execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=20}] run playsound doors:misc.elevator_countdown master @a
 execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=40}] run data merge entity @s {text:'{"text":"3"}'}
-execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=40}] run playsound custom:misc.elevator_countdown master @a
+execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=40}] run playsound doors:misc.elevator_countdown master @a
 execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=60}] run data merge entity @s {text:'{"text":"2"}'}
-execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=60}] run playsound custom:misc.elevator_countdown master @a
+execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=60}] run playsound doors:misc.elevator_countdown master @a
 execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=80}] run data merge entity @s {text:'{"text":"1"}'}
-execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=80}] run playsound custom:misc.elevator_countdown master @a
+execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=80}] run playsound doors:misc.elevator_countdown master @a
 execute at @s if entity @s[tag=front_countdown,scores={elevatorcountdown=100}] run data merge entity @s {text:'{"text":"..."}'}
 
 

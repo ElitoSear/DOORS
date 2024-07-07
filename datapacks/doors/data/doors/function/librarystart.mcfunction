@@ -19,8 +19,8 @@ execute if entity @s[scores={librarystart=3}] run gamemode spectator @a
 execute if entity @s[scores={librarystart=222}] run scoreboard players reset @a walk
 execute if entity @s[scores={librarystart=222}] run scoreboard players reset @a running
 execute if entity @s[scores={librarystart=3..63}] run execute as @e[tag=camera] at @s run tp @s ^ ^ ^0.15
-execute if entity @s[scores={librarystart=2}] run execute as @a at @s run playsound custom:music.unhinged_intro master @s
-execute if entity @s[scores={librarystart=111}] run execute at @e[tag=figure] run playsound custom:entity.figure.aggressive_growl master @a
+execute if entity @s[scores={librarystart=2}] run execute as @a at @s run playsound doors:music.unhinged_intro master @s
+execute if entity @s[scores={librarystart=111}] run execute at @e[tag=figure] run playsound doors:entity.figure.aggressive_growl master @a
 execute if entity @s[scores={librarystart=80..223}] run execute as @e[tag=camera] at @s run tp @s ^ ^ ^-0.048
 execute if entity @s[scores={librarystart=63..93}] run execute as @e[tag=figure] at @s run tp @s ^ ^ ^0.4 facing entity @e[tag=figurepathlibrary,tag=!checked,limit=1,sort=nearest]
 execute if entity @s[scores={librarystart=94..140}] run execute as @e[tag=figure] at @s run tp @s ^ ^ ^ facing entity @e[tag=camera,limit=1,sort=nearest]

@@ -79,7 +79,7 @@ execute as @e[scores={jack=2},tag=automaticdoor] at @s positioned as @s rotated 
 execute as @e[scores={jack=2},tag=automaticdoor] at @s run execute as @e[tag=jack,limit=1,sort=nearest] at @s run tp @s ~ ~ ~ facing entity @a[sort=nearest,limit=1]
 execute as @e[scores={jack=2},tag=wardrobe] at @s align xyz run summon item_display ~0.5 ~0.5 ~0.5 {item:{id:"minecraft:string",Count:1b,tag:{CustomModelData:116}},Tags:["jack"]}
 execute as @e[scores={jack=2},tag=wardrobe] at @s align xyz positioned ~0.5 ~0.5 ~0.5 run execute as @e[tag=jack,limit=1,sort=nearest] run tp @s ~ ~ ~ ~ ~
-execute as @e[scores={jack=2}] at @s run playsound custom:entity.jack.jumpscare master @a
+execute as @e[scores={jack=2}] at @s run playsound doors:entity.jack.jumpscare master @a
 execute as @e[scores={jack=8}] at @s run kill @e[tag=jack,limit=1,sort=nearest]
 execute as @e[scores={jack=8}] at @s run advancement grant @a[distance=..5,gamemode=adventure] only doors:achievements/achievement13
 execute as @e[scores={jack=9..}] at @s run scoreboard players reset @s jack
@@ -87,7 +87,7 @@ scoreboard players add @e[scores={jack=1..}] jack 1
 #Shadow
 execute as @e[scores={shadow=2}] at @s positioned as @s rotated as @e[tag=door,limit=1,sort=nearest] run summon item_display ^ ^0.5 ^-4 {item:{id:"minecraft:string",Count:1b,tag:{CustomModelData:121}},Tags:["shadow"]}
 execute as @e[scores={shadow=2}] at @s run execute as @e[tag=shadow,limit=1,sort=nearest] at @s run tp @s ~ ~ ~ facing entity @a[sort=nearest,limit=1]
-execute as @e[scores={shadow=2}] at @s run playsound custom:entity.shadow.jumpscare master @a
+execute as @e[scores={shadow=2}] at @s run playsound doors:entity.shadow.jumpscare master @a
 execute as @e[scores={shadow=6}] at @s run kill @e[tag=shadow,limit=1,sort=nearest]
 execute as @e[scores={shadow=7..}] at @s run scoreboard players reset @s shadow
 scoreboard players add @e[scores={shadow=1..}] shadow 1
@@ -107,7 +107,7 @@ execute as @e[scores={shimmering=600}] at @s run tag @s add glints
 #Rift System
 function doors:riftitems
 #Rift Sound
-execute at @e[tag=riftlobby] run stopsound @a[tag=!rifted,distance=16..17] * custom:misc.rift
+execute at @e[tag=riftlobby] run stopsound @a[tag=!rifted,distance=16..17] * doors:misc.rift
 execute at @e[tag=riftlobby] run scoreboard players reset @a[tag=!rifted,distance=..16] riftsoundlobby
         #Open automatic doors
 #Common door
@@ -134,11 +134,11 @@ scoreboard players add @e[scores={crucifixed=1..}] crucifixed 1
 scoreboard players add @e[scores={crucifixfailed=1..120}] crucifixfailed 1
 scoreboard players reset @e[scores={crucifixfailed=121..}] crucifixfailed
     #specific entity sound
-execute as @e[scores={crucifixed=2}] at @s if entity @s[tag=halt] run playsound custom:entity.halt.crucifixed master @a
-execute as @e[scores={crucifixed=2}] at @s if entity @s[tag=rush] run playsound custom:entity.rush.crucifixed master @a
-execute as @e[scores={crucifixed=2}] at @s if entity @s[tag=eyes] run playsound custom:entity.eyes.crucifixed master @a
-execute as @e[scores={crucifixed=2}] at @s if entity @s[tag=screech] run playsound custom:entity.screech.crucifixed master @a
-execute as @e[scores={crucifixed=2}] at @s if entity @s[tag=ambush] run playsound custom:entity.ambush.crucifixed master @a
+execute as @e[scores={crucifixed=2}] at @s if entity @s[tag=halt] run playsound doors:entity.halt.crucifixed master @a
+execute as @e[scores={crucifixed=2}] at @s if entity @s[tag=rush] run playsound doors:entity.rush.crucifixed master @a
+execute as @e[scores={crucifixed=2}] at @s if entity @s[tag=eyes] run playsound doors:entity.eyes.crucifixed master @a
+execute as @e[scores={crucifixed=2}] at @s if entity @s[tag=screech] run playsound doors:entity.screech.crucifixed master @a
+execute as @e[scores={crucifixed=2}] at @s if entity @s[tag=ambush] run playsound doors:entity.ambush.crucifixed master @a
     #Summoning of circles and spinning
 execute as @e[tag=spinsslowly] at @s run tp @s ~ ~ ~ ~18 ~
 execute as @e[tag=crucifixcircle] run data merge entity @s {transformation:{translation:[0f,0.5f,0f]}}
@@ -174,10 +174,10 @@ execute as @e[scores={crucifixfailed=120}] at @s run kill @e[tag=innercircle,dis
 execute as @e[tag=rush] run function doors:executables/rush
  
         #Entity Sound
-execute unless entity @e[type=armor_stand,tag=rush] run stopsound @a * custom:entity.rush.far
-execute unless entity @e[type=armor_stand,tag=rush] run stopsound @a * custom:entity.rush.near
-execute if entity @e[type=armor_stand,tag=rush,scores={crucifixed=1..}] run stopsound @a * custom:entity.rush.far
-execute if entity @e[type=armor_stand,tag=rush,scores={crucifixed=1..}] run stopsound @a * custom:entity.rush.near
+execute unless entity @e[type=armor_stand,tag=rush] run stopsound @a * doors:entity.rush.far
+execute unless entity @e[type=armor_stand,tag=rush] run stopsound @a * doors:entity.rush.near
+execute if entity @e[type=armor_stand,tag=rush,scores={crucifixed=1..}] run stopsound @a * doors:entity.rush.far
+execute if entity @e[type=armor_stand,tag=rush,scores={crucifixed=1..}] run stopsound @a * doors:entity.rush.near
 
 execute if entity @e[type=text_display,tag=door,scores={rush=1200..}] run kill @e[tag=rush]
 #Ambush
@@ -188,10 +188,10 @@ execute as @e[type=armor_stand,tag=ambush] run function doors:executables/ambush
           #Entity Sound
 execute unless entity @e[type=armor_stand,tag=ambush] run scoreboard players reset @a[scores={ambushnear=1..}] ambushnear
 execute unless entity @e[type=armor_stand,tag=ambush] run scoreboard players reset @a[scores={ambushfar=1..}] ambushfar
-execute unless entity @e[type=armor_stand,tag=ambush] run stopsound @a * custom:entity.ambush.far
-execute unless entity @e[type=armor_stand,tag=ambush] run stopsound @a * custom:entity.ambush.near
-execute if entity @e[type=armor_stand,tag=ambush,scores={crucifixed=1..}] run stopsound @a * custom:entity.ambush.far
-execute if entity @e[type=armor_stand,tag=ambush,scores={crucifixed=1..}] run stopsound @a * custom:entity.ambush.near
+execute unless entity @e[type=armor_stand,tag=ambush] run stopsound @a * doors:entity.ambush.far
+execute unless entity @e[type=armor_stand,tag=ambush] run stopsound @a * doors:entity.ambush.near
+execute if entity @e[type=armor_stand,tag=ambush,scores={crucifixed=1..}] run stopsound @a * doors:entity.ambush.far
+execute if entity @e[type=armor_stand,tag=ambush,scores={crucifixed=1..}] run stopsound @a * doors:entity.ambush.near
 
 #Dupe
 function doors:dupe

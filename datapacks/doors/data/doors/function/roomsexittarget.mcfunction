@@ -4,5 +4,5 @@ tag @s remove roomsleader
 tag @s remove lastroomsplayer
 scoreboard players reset @s atrooms
 scoreboard players reset @s roomsambience
-stopsound @a * custom:music.the_rooms
-execute at @s run playsound custom:misc.rooms_door master @s
+stopsound @a * doors:music.the_rooms
+execute at @s run playsound doors:misc.rooms_door master @s

@@ -1,5 +1,5 @@
 #puzzle1
-execute if entity @s[scores={fireplacetime=2}] at @s positioned ^ ^-1 ^-14.5 run execute as @a[distance=..35] at @s run playsound custom:misc.puzzle_success master @s
+execute if entity @s[scores={fireplacetime=2}] at @s positioned ^ ^-1 ^-14.5 run execute as @a[distance=..35] at @s run playsound doors:misc.puzzle_success master @s
 execute if entity @s[scores={fireplacetime=2}] at @s positioned ^ ^-1 ^-26 run execute as @e[tag=chimney,distance=..7] run data merge entity @s {transformation:{translation:[0f,-4.1f,0f]},start_interpolation:0,interpolation_duration:60}
 execute if entity @s[scores={fireplacetime=2}] at @s align xyz positioned ^1 ^-2 ^-26 run fill ^ ^ ^ ^-2 ^4 ^-1 air replace barrier
 

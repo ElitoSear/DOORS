@@ -1,9 +1,9 @@
 execute on target if entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] if entity @e[tag=lockrooms1,tag=unlocked] if entity @e[tag=lockrooms2,tag=unlocked] run data merge entity @e[tag=skeletonlockroomsdisplay,sort=nearest,limit=1] {view_range:0}
-execute on target if entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] if entity @e[tag=lockrooms1,tag=unlocked] if entity @e[tag=lockrooms2,tag=unlocked] run playsound custom:misc.infirmary_room_open master @a
+execute on target if entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] if entity @e[tag=lockrooms1,tag=unlocked] if entity @e[tag=lockrooms2,tag=unlocked] run playsound doors:misc.infirmary_room_open master @a
 execute on target if entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] if entity @e[tag=lockrooms1,tag=unlocked] if entity @e[tag=lockrooms2,tag=unlocked] run particle minecraft:dust 1 1 0 0.3 ~ ~ ~ 0.3 0.3 0.3 1 1000 normal
 execute on target if entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] if entity @e[tag=lockrooms1,tag=unlocked] if entity @e[tag=lockrooms2,tag=unlocked] run tag @e[tag=a000,sort=nearest,limit=1] remove closed
 execute on target if entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] if entity @e[tag=lockrooms1,tag=unlocked] if entity @e[tag=lockrooms2,tag=unlocked] run clear @s string{CustomModelData:96}
 execute on target unless entity @e[tag=a000,tag=!closed] unless entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] run title @s actionbar {"text":"\uE011"}
-execute on target unless entity @e[tag=a000,tag=!closed] unless entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] run playsound custom:misc.click master @s
+execute on target unless entity @e[tag=a000,tag=!closed] unless entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] run playsound doors:misc.click master @s
 execute on target unless entity @e[tag=a000,tag=!closed] unless entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] run data remove entity @e[tag=skeletonlockrooms,sort=nearest,limit=1] interaction
 data remove entity @s interaction

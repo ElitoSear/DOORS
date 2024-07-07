@@ -23,7 +23,7 @@ execute if score progresslevel breakerprogress matches 8 run data merge entity @
 execute if score progresslevel breakerprogress matches 9 run data merge entity @e[tag=screenprogress,limit=1] {item:{id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:30}}}
 execute if score progresslevel breakerprogress matches 10 run data merge entity @e[tag=screenprogress,limit=1] {item:{id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:31}}}
 
-execute if score progresslevel breakerprogress matches 0..9 at @e[tag=protectbreaker] run playsound custom:misc.progress_decrease master @a ~ ~2 ~
-execute if score progresslevel breakerprogress matches 10 at @e[tag=protectbreaker] run playsound custom:misc.progress_increase master @a ~ ~2 ~
+execute if score progresslevel breakerprogress matches 0..9 at @e[tag=protectbreaker] run playsound doors:misc.progress_decrease master @a ~ ~2 ~
+execute if score progresslevel breakerprogress matches 10 at @e[tag=protectbreaker] run playsound doors:misc.progress_increase master @a ~ ~2 ~
 execute if score progresslevel breakerprogress matches 10 run data merge entity @e[tag=screenstage,limit=1] {item:{id:"minecraft:iron_ingot",Count:1b,tag:{CustomModelData:19}}}
 execute if score progresslevel breakerprogress matches 10 as @e[scores={breakerpuzzle=640}] run scoreboard players set @s breakerpuzzle 700

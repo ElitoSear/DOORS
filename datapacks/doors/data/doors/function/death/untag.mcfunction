@@ -39,10 +39,10 @@ tag @s remove killed_by_a_90
 tag @s remove killed_by_a_120
 #Other
 execute at @s run function doors:death/kill
-stopsound @s * custom:music.guiding_light
-stopsound @s * custom:music.guiding_light_end
-stopsound @s * custom:music.curious_light
-stopsound @s * custom:music.curious_light_end
+stopsound @s * doors:music.guiding_light
+stopsound @s * doors:music.guiding_light_end
+stopsound @s * doors:music.curious_light
+stopsound @s * doors:music.curious_light_end
 scoreboard players reset @s guiding_light_message
 gamemode spectator @s
 tag @s add spectates
