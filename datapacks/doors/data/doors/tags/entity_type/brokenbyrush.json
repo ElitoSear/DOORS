@@ -1,0 +1,10 @@
+{
+    "replace":false,
+    "values": [
+        "minecraft:wall_torch",
+        "minecraft:lantern",
+        "minecraft:light",
+        "#minecraft:candles",
+        "minecraft:campfire"
+    ]
+}
