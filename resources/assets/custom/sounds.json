@@ -1,0 +1,722 @@
+{
+  "music.dawn_of_the_doors": {
+    "sounds": [
+      "custom:music/dawn_of_the_doors"
+    ]
+  },
+  "music.dawn_of_the_doors_end": {
+    "sounds": [
+      "custom:music/dawn_of_the_doors_end"
+    ]
+  },
+  "music.elevator_jam": {
+    "sounds": [
+      "custom:music/elevator_jam"
+    ]
+  },
+  "music.elevator_jammed": {
+    "sounds": [
+      "custom:music/elevator_jammed"
+    ]
+  },
+  "music.unhinged": {
+    "sounds": [
+      "custom:music/unhinged"
+    ]
+  },
+  "music.unhinged_intro": {
+    "sounds": [
+      "custom:music/unhinged_intro"
+    ]
+  },
+  "music.unhinged_end": {
+    "sounds": [
+      "custom:music/unhinged_end"
+    ]
+  },
+  "music.unhinged_2": {
+    "sounds": [
+      "custom:music/unhinged_2"
+    ]
+  },
+  "music.unhinged_2_intense": {
+    "sounds": [
+      "custom:music/unhinged_2_intense"
+    ]
+  },
+  "music.guiding_light": {
+    "sounds": [
+      "custom:music/guiding_light"
+    ]
+  },
+  "music.guiding_light_end": {
+    "sounds": [
+      "custom:music/guiding_light_end"
+    ]
+  },
+  "music.curious_light": {
+    "sounds": [
+      "custom:music/curious_light"
+    ]
+  },
+  "music.curious_light_end": {
+    "sounds": [
+      "custom:music/curious_light_end"
+    ]
+  },
+  "music.here_i_come": {
+    "sounds": [
+      "custom:music/here_i_come"
+    ]
+  },
+  "music.here_i_come_end": {
+    "sounds": [
+      "custom:music/here_i_come_end"
+    ]
+  },
+  "music.jeffs_jingle": {
+    "sounds": [
+      "custom:music/jeffs_jingle"
+    ]
+  },
+  "music.rooms_entrance": {
+    "sounds": [
+      "custom:music/rooms_entrance"
+    ]
+  },
+  "music.the_rooms": {
+    "sounds": [
+      "custom:music/the_rooms"
+    ]
+  },
+  "item.candle": {
+    "sounds": [
+      "custom:item/candle"
+    ]
+  },
+  "item.candle_burned": {
+    "sounds": [
+      "custom:item/candle_burned"
+    ]
+  },
+  "item.crucifix": {
+    "sounds": [
+      "custom:item/crucifix"
+    ]
+  },
+  "item.crucifix_failed": {
+    "sounds": [
+      "custom:item/crucifix_failed"
+    ]
+  },
+  "item.key": {
+    "sounds": [
+      "custom:item/key"
+    ]
+  },
+  "item.lighter": {
+    "sounds": [
+      "custom:item/lighter"
+    ]
+  },
+  "item.vitamins": {
+    "sounds": [
+      "custom:item/vitamins"
+    ]
+  },
+  "misc.achievement": {
+    "sounds": [
+      "custom:misc/achievement"
+    ]
+  },
+  "misc.bell": {
+    "sounds": [
+      "custom:misc/bell"
+    ]
+  },
+  "misc.click": {
+    "sounds": [
+      "custom:misc/click"
+    ]
+  },
+  "misc.courtyard": {
+    "sounds": [
+      "custom:misc/courtyard"
+    ]
+  },
+  "misc.darkroom": {
+    "sounds": [
+      "custom:misc/darkroom"
+    ]
+  },
+  "misc.death": {
+    "sounds": [
+      "custom:misc/death"
+    ]
+  },
+  "misc.static": {
+    "sounds": [
+      "custom:misc/static"
+    ]
+  },
+  "misc.electrical_room_lever_door": {
+    "sounds": [
+      "custom:misc/electrical_room_lever_door"
+    ]
+  },
+  "misc.ear_ringing": {
+    "sounds": [
+      "custom:misc/ear_ringing"
+    ]
+  },
+  "misc.electrical_roof_light": {
+    "sounds": [
+      "custom:misc/electrical_roof_light"
+    ]
+  },
+  "misc.elevator_countdown": {
+    "sounds": [
+      "custom:misc/elevator_countdown"
+    ]
+  },
+  "misc.eye_splat": {
+    "sounds": [
+      "custom:misc/eye_splat"
+    ]
+  },
+  "misc.flashlight_on": {
+    "sounds": [
+      "custom:misc/flashlight_on"
+    ]
+  },
+  "misc.flashlight_off": {
+    "sounds": [
+      "custom:misc/flashlight_off"
+    ]
+  },
+  "misc.flickering": {
+    "sounds": [
+      "custom:misc/flickering"
+    ]
+  },
+  "misc.fnaf_2": {
+    "sounds": [
+      "custom:misc/fnaf_2"
+    ]
+  },
+  "misc.get_out": {
+    "sounds": [
+      "custom:misc/get_out"
+    ]
+  },
+  "misc.glint": {
+    "sounds": [
+      "custom:misc/glint"
+    ]
+  },
+  "misc.revive_decrease": {
+    "sounds": [
+      "custom:misc/revive_decrease"
+    ]
+  },
+  "misc.gold_decrease": {
+    "sounds": [
+      "custom:misc/gold_decrease"
+    ]
+  },
+  "misc.gold_increase": {
+    "sounds": [
+      "custom:misc/gold_increase"
+    ]
+  },
+  "misc.knobs_decrease": {
+    "sounds": [
+      "custom:misc/knobs_decrease"
+    ]
+  },
+  "misc.knobs_increase": {
+    "sounds": [
+      "custom:misc/knobs_increase"
+    ]
+  },
+  "misc.heart_minigame": {
+    "sounds": [
+      "custom:misc/heart_minigame"
+    ]
+  },
+  "misc.heart_minigame_hit": {
+    "sounds": [
+      "custom:misc/heart_minigame_hit"
+    ]
+  },
+  "misc.heart_minigame_fail": {
+    "sounds": [
+      "custom:misc/heart_minigame_fail"
+    ]
+  },
+  "misc.bed_hide": {
+    "sounds": [
+      "custom:misc/bed_hide"
+    ]
+  },
+  "misc.lever": {
+    "sounds": [
+      "custom:misc/lever"
+    ]
+  },
+  "misc.library_door": {
+    "sounds": [
+      "custom:misc/library_door"
+    ]
+  },
+  "misc.giant_lock_flick": {
+    "sounds": [
+      "custom:misc/giant_lock_flick"
+    ]
+  },
+  "misc.puzzle_success": {
+    "sounds": [
+      "custom:misc/puzzle_success"
+    ]
+  },
+  "misc.player_on_elevator": {
+    "sounds": [
+      "custom:misc/player_on_elevator"
+    ]
+  },
+  "misc.progress_increase": {
+    "sounds": [
+      "custom:misc/progress_increase"
+    ]
+  },
+  "misc.progress_decrease": {
+    "sounds": [
+      "custom:misc/progress_decrease"
+    ]
+  },
+  "misc.rift": {
+    "sounds": [
+      "custom:misc/rift"
+    ]
+  },
+  "misc.infirmary_room_open": {
+    "sounds": [
+      "custom:misc/infirmary_room_open"
+    ]
+  },
+  "misc.snare_trap": {
+    "sounds": [
+      "custom:misc/snare_trap"
+    ]
+  },
+  "misc.switches_flick": {
+    "sounds": [
+      "custom:misc/switches_flick"
+    ]
+  },
+  "misc.switch_flick": {
+    "sounds": [
+      "custom:misc/switch_flick"
+    ]
+  },
+  "misc.switch_on": {
+    "sounds": [
+      "custom:misc/switch_on"
+    ]
+  },
+  "misc.switch_off": {
+    "sounds": [
+      "custom:misc/switch_off"
+    ]
+  },
+  "misc.switch_success": {
+    "sounds": [
+      "custom:misc/switch_success"
+    ]
+  },
+  "misc.the_hotel": {
+    "sounds": [
+      "custom:misc/the_hotel"
+    ]
+  },
+  "misc.wardrobe_open": {
+    "sounds": [
+      "custom:misc/wardrobe_open"
+    ]
+  },
+  "misc.wardrobe_close": {
+    "sounds": [
+      "custom:misc/wardrobe_close"
+    ]
+  },
+  "misc.rooms_door": {
+    "sounds": [
+      "custom:misc/rooms_door"
+    ]
+  },
+  "entity.a60.arrival": {
+    "sounds": [
+      "custom:entity/a60/arrival"
+    ]
+  },
+  "entity.a60.far": {
+    "sounds": [
+      "custom:entity/a60/far"
+    ]
+  },
+  "entity.a60.near": {
+    "sounds": [
+      "custom:entity/a60/near"
+    ]
+  },
+  "entity.a120.far": {
+    "sounds": [
+      "custom:entity/a120/far"
+    ]
+  },
+  "entity.a120.near": {
+    "sounds": [
+      "custom:entity/a120/near"
+    ]
+  },
+  "entity.a90.death": {
+    "sounds": [
+      "custom:entity/a90/death"
+    ]
+  },
+  "entity.a90.spawn": {
+    "sounds": [
+      "custom:entity/a90/spawn"
+    ]
+  },
+  "entity.ambush.arrival": {
+    "sounds": [
+      "custom:entity/ambush/arrival"
+    ]
+  },
+  "entity.ambush.crucifixed": {
+    "sounds": [
+      "custom:entity/ambush/crucifixed"
+    ]
+  },
+  "entity.ambush.death": {
+    "sounds": [
+      "custom:entity/ambush/death"
+    ]
+  },
+  "entity.ambush.near": {
+    "sounds": [
+      "custom:entity/ambush/near"
+    ]
+  },
+  "entity.ambush.far": {
+    "sounds": [
+      "custom:entity/ambush/far"
+    ]
+  },
+  "entity.dupe.growl": {
+    "sounds": [
+      "custom:entity/dupe/growl"
+    ]
+  },
+  "entity.dupe.jumpscare": {
+    "sounds": [
+      "custom:entity/dupe/jumpscare"
+    ]
+  },
+  "entity.eyes.crucifixed": {
+    "sounds": [
+      "custom:entity/eyes/crucifixed"
+    ]
+  },
+  "entity.eyes.damage": {
+    "sounds": [
+      "custom:entity/eyes/damage"
+    ]
+  },
+  "entity.eyes.despawn": {
+    "sounds": [
+      "custom:entity/eyes/despawn"
+    ]
+  },
+  "entity.eyes.idle": {
+    "sounds": [
+      "custom:entity/eyes/idle"
+    ]
+  },
+  "entity.eyes.spawn": {
+    "sounds": [
+      "custom:entity/eyes/spawn"
+    ]
+  },
+  "entity.figure.aggressive_growl": {
+    "sounds": [
+      "custom:entity/figure/aggressive_growl"
+    ]
+  },
+  "entity.figure.high_growl": {
+    "sounds": [
+      "custom:entity/figure/high_growl"
+    ]
+  },
+  "entity.figure.low_growl": {
+    "sounds": [
+      "custom:entity/figure/low_growl"
+    ]
+  },
+  "entity.figure.reverbered_growl": {
+    "sounds": [
+      "custom:entity/figure/reverbered_growl"
+    ]
+  },
+  "entity.figure.step_1": {
+    "sounds": [
+      "custom:entity/figure/step_1"
+    ]
+  },
+  "entity.figure.step_2": {
+    "sounds": [
+      "custom:entity/figure/step_2"
+    ]
+  },
+  "entity.glitch.jumpscare": {
+    "sounds": [
+      "custom:entity/glitch/jumpscare"
+    ]
+  },
+  "entity.halt.ambience": {
+    "sounds": [
+      "custom:entity/halt/ambience"
+    ]
+  },
+  "entity.halt.crucifixed": {
+    "sounds": [
+      "custom:entity/halt/crucifixed"
+    ]
+  },
+  "entity.halt.damage": {
+    "sounds": [
+      "custom:entity/halt/damage"
+    ]
+  },
+  "entity.halt.distorted": {
+    "sounds": [
+      "custom:entity/halt/distorted"
+    ]
+  },
+  "entity.halt.summon": {
+    "sounds": [
+      "custom:entity/halt/summon"
+    ]
+  },
+  "entity.halt.turn_around": {
+    "sounds": [
+      "custom:entity/halt/turn_around"
+    ]
+  },
+  "entity.halt.whisper": {
+    "sounds": [
+      "custom:entity/halt/whisper"
+    ]
+  },
+  "entity.halt.whistles": {
+    "sounds": [
+      "custom:entity/halt/whistles"
+    ]
+  },
+  "entity.jack.jumpscare": {
+    "sounds": [
+      "custom:entity/jack/jumpscare"
+    ]
+  },
+  "entity.rush.arrival": {
+    "sounds": [
+      "custom:entity/rush/arrival"
+    ]
+  },
+  "entity.rush.near": {
+    "sounds": [
+      "custom:entity/rush/near"
+    ]
+  },
+  "entity.rush.far": {
+    "sounds": [
+      "custom:entity/rush/far"
+    ]
+  },
+  "entity.rush.death": {
+    "sounds": [
+      "custom:entity/rush/death"
+    ]
+  },
+  "entity.screech.crucifixed": {
+    "sounds": [
+      "custom:entity/screech/crucifixed"
+    ]
+  },
+  "entity.screech.damage": {
+    "sounds": [
+      "custom:entity/screech/damage"
+    ]
+  },
+  "entity.screech.dodge": {
+    "sounds": [
+      "custom:entity/screech/dodge"
+    ]
+  },
+  "entity.screech.psst": {
+    "sounds": [
+      "custom:entity/screech/psst"
+    ]
+  },
+  "entity.screech.pre_psst": {
+    "sounds": [
+      "custom:entity/screech/pre_psst"
+    ]
+  },
+  "entity.seek.death": {
+    "sounds": [
+      "custom:entity/seek/death"
+    ]
+  },
+  "entity.seek.knocks": {
+    "sounds": [
+      "custom:entity/seek/knocks"
+    ]
+  },
+  "entity.seek.scream": {
+    "sounds": [
+      "custom:entity/seek/scream"
+    ]
+  },
+  "entity.seek.steps_close": {
+    "sounds": [
+      "custom:entity/seek/steps_close"
+    ]
+  },
+  "entity.seek.steps_far": {
+    "sounds": [
+      "custom:entity/seek/steps_far"
+    ]
+  },
+  "entity.shadow.jumpscare": {
+    "sounds": [
+      "custom:entity/shadow/jumpscare"
+    ]
+  },
+  "entity.timothy.jumpscare": {
+    "sounds": [
+      "custom:entity/timothy/jumpscare"
+    ]
+  },
+  "entity.void.jumpscare": {
+    "sounds": [
+      "custom:entity/void/jumpscare"
+    ]
+  },
+  "ambience.doors.1": {
+    "sounds": [
+      "custom:ambience/1"
+    ]
+  },
+  "ambience.doors.2": {
+    "sounds": [
+      "custom:ambience/2"
+    ]
+  },
+  "ambience.doors.3": {
+    "sounds": [
+      "custom:ambience/3"
+    ]
+  },
+  "ambience.doors.4": {
+    "sounds": [
+      "custom:ambience/4"
+    ]
+  },
+  "ambience.doors.5": {
+    "sounds": [
+      "custom:ambience/5"
+    ]
+  },
+  "ambience.doors.6": {
+    "sounds": [
+      "custom:ambience/6"
+    ]
+  },
+  "ambience.doors.7": {
+    "sounds": [
+      "custom:ambience/7"
+    ]
+  },
+  "ambience.doors.8": {
+    "sounds": [
+      "custom:ambience/8"
+    ]
+  },
+  "ambience.doors.9": {
+    "sounds": [
+      "custom:ambience/9"
+    ]
+  },
+  "ambience.doors.10": {
+    "sounds": [
+      "custom:ambience/10"
+    ]
+  },
+  "ambience.doors.11": {
+    "sounds": [
+      "custom:ambience/11"
+    ]
+  },
+  "ambience.doors.12": {
+    "sounds": [
+      "custom:ambience/12"
+    ]
+  },
+  "ambience.doors.13": {
+    "sounds": [
+      "custom:ambience/13"
+    ]
+  },
+  "ambience.doors.14": {
+    "sounds": [
+      "custom:ambience/14"
+    ]
+  },
+  "ambience.doors.15": {
+    "sounds": [
+      "custom:ambience/15"
+    ]
+  },
+  "ambience.doors.16": {
+    "sounds": [
+      "custom:ambience/16"
+    ]
+  },
+  "ambience.doors.17": {
+    "sounds": [
+      "custom:ambience/17"
+    ]
+  },
+  "ambience.doors.18": {
+    "sounds": [
+      "custom:ambience/18"
+    ]
+  },
+  "ambience.doors.19": {
+    "sounds": [
+      "custom:ambience/19"
+    ]
+  },
+  "ambience.doors.rush_1": {
+    "sounds": [
+      "custom:ambience/rush_1"
+    ]
+  },
+  "ambience.doors.rush_2": {
+    "sounds": [
+      "custom:ambience/rush_2"
+    ]
+  }
+}

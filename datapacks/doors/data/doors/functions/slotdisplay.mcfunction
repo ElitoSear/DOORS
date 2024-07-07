@@ -1,0 +1,10 @@
+execute if score @s slotnumber matches 0 run data merge entity @s {item:{tag:{CustomModelData:1}}}
+execute if score @s slotnumber matches 1 run data merge entity @s {item:{tag:{CustomModelData:2}}}
+execute if score @s slotnumber matches 2 run data merge entity @s {item:{tag:{CustomModelData:3}}}
+execute if score @s slotnumber matches 3 run data merge entity @s {item:{tag:{CustomModelData:4}}}
+execute if score @s slotnumber matches 4 run data merge entity @s {item:{tag:{CustomModelData:5}}}
+execute if score @s slotnumber matches 5 run data merge entity @s {item:{tag:{CustomModelData:6}}}
+execute if score @s slotnumber matches 6 run data merge entity @s {item:{tag:{CustomModelData:7}}}
+execute if score @s slotnumber matches 7 run data merge entity @s {item:{tag:{CustomModelData:8}}}
+execute if score @s slotnumber matches 8 run data merge entity @s {item:{tag:{CustomModelData:9}}}
+execute if score @s slotnumber matches 9 run data merge entity @s {item:{tag:{CustomModelData:10}}}

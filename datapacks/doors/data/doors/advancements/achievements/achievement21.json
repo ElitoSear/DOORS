@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:string",
+        "nbt": "{CustomModelData:143}"
+      },
+      "title": {
+        "translate": "achievement.doors.unbound"
+      },
+      "description": {
+        "translate": "achievement.doors.unbound.desc",
+        "color": "white",
+        "extra": [
+          {
+            "translate": "achievement.doors.unbound.directions",
+            "color": "gray"
+          }
+        ]
+      },
+      "frame": "task",
+      "hidden": false
+    },
+    "parent": "doors:achievements/achievement19",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "doors:playachievementsound"
+    },
+    "sends_telemetry_event": false
+  }
+  

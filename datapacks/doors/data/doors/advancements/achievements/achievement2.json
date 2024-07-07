@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:string",
+        "nbt": "{CustomModelData:124}"
+      },
+      "title": {
+        "translate": "achievement.doors.buddy_system"
+      },
+      "description": {
+        "translate": "achievement.doors.buddy_system.desc",
+        "color": "white",
+        "extra": [
+          {
+            "translate": "achievement.doors.buddy_system.directions",
+            "color": "gray"
+          }
+        ]
+      },
+      "frame": "task",
+      "hidden": false
+    },
+    "parent": "doors:achievements/achievement1",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "doors:playachievementsound"
+    },
+    "sends_telemetry_event": false
+  }
+  

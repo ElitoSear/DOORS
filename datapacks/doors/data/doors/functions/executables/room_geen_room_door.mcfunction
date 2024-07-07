@@ -1,0 +1,17 @@
+execute if score @s structurepick matches 90 run function doors:structures/rooms/1
+execute if score @s structurepick matches 91 run function doors:structures/rooms/2
+execute if score @s structurepick matches 92 run function doors:structures/rooms/3
+execute if score @s structurepick matches 93 run function doors:structures/rooms/4
+execute if score @s structurepick matches 94 run function doors:structures/rooms/5
+execute if score @s structurepick matches 95 run function doors:structures/rooms/6
+execute if score @s structurepick matches 96 run function doors:structures/rooms/7
+execute if score @s structurepick matches 97 run function doors:structures/rooms/8
+execute if score @s structurepick matches 98 run function doors:structures/rooms/9
+execute if score @s structurepick matches 99 run function doors:structures/rooms/10
+execute if score @s structurepick matches 100 run function doors:structures/rooms/11
+execute if score @s structurepick matches 101 run function doors:structures/rooms/12
+execute if score @s structurepick matches 102 run function doors:structures/rooms/13
+execute if score @s structurepick matches 103 run function doors:structures/rooms/14
+execute if score @s structurepick matches 104 run function doors:structures/rooms/15
+execute if score @s structurepick matches 105 run function doors:structures/rooms/16
+execute if score @s structurepick matches 106 run function doors:structures/rooms/exit

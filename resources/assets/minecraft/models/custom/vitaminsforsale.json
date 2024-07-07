@@ -1,0 +1,73 @@
+{
+	"credit": "Elito",
+	"ambientocclusion": false,
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "item/cushion",
+		"1": "item/vitamins",
+		"particle": "item/cushion"
+	},
+	"elements": [
+		{
+			"from": [3, 8, 3],
+			"to": [13, 9, 13],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8.5, 8]},
+			"faces": {
+				"north": {"uv": [0, 8, 8, 8.5], "texture": "#0"},
+				"east": {"uv": [0, 8, 8, 8.5], "texture": "#0"},
+				"south": {"uv": [0, 8, 8, 8.5], "texture": "#0"},
+				"west": {"uv": [0, 8, 8, 8.5], "texture": "#0"},
+				"up": {"uv": [0, 8, 8, 16], "texture": "#0"},
+				"down": {"uv": [0, 8, 8, 16], "texture": "#0"}
+			}
+		},
+		{
+			"from": [3, 9, 5],
+			"to": [11, 15, 11],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 11, 8]},
+			"faces": {
+				"north": {"uv": [4, 0, 8, 5.25], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [3, 8.25, 0, 5.25], "texture": "#1"},
+				"south": {"uv": [4, 0, 8, 5.25], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [3, 8.25, 0, 5.25], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [0, 0, 4, 5.25], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [4, 0, 8, 5.25], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [11, 10, 6],
+			"to": [12, 14, 10],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 11, 8]},
+			"faces": {
+				"north": {"uv": [5, 0, 7, 0.5], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [7, 2, 5, 0], "texture": "#1"},
+				"south": {"uv": [5, 0, 7, 0.75], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [7.25, 0, 5.25, 2], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [5, 0, 7, 0.5], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [5, 0, 7, 0.5], "rotation": 90, "texture": "#1"}
+			}
+		},
+		{
+			"from": [12, 9, 5],
+			"to": [14, 15, 11],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [8, 11, 8]},
+			"faces": {
+				"north": {"uv": [8.75, 11.25, 12, 12.5], "rotation": 270, "texture": "#1"},
+				"east": {"uv": [11.25, 11.25, 8, 8], "texture": "#1"},
+				"south": {"uv": [8.75, 11.25, 12, 12.75], "rotation": 90, "texture": "#1"},
+				"west": {"uv": [3.25, 10.75, 0, 14], "rotation": 180, "texture": "#1"},
+				"up": {"uv": [8.75, 11.25, 12, 12.5], "rotation": 90, "texture": "#1"},
+				"down": {"uv": [8.75, 11.25, 12, 12.5], "rotation": 90, "texture": "#1"}
+			}
+		}
+	],
+	"groups": [
+		0,
+		{
+			"name": "Vitamins",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [1, 2, 3]
+		}
+	]
+}

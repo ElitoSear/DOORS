@@ -1,0 +1,1 @@
+execute at @s as @a[distance=..0.65] unless entity @s[nbt={RootVehicle:{Entity:{Tags:["locker"]}}}] run tp @s ^ ^0.1 ^1

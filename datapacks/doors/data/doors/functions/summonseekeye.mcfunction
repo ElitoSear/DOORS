@@ -1,0 +1,4 @@
+execute at @s if entity @s[y_rotation=0] run summon item_display ^ ^ ^0.1 {Tags:["eye"],item:{id:"minecraft:string",Count:1b,tag:{CustomModelData:30}},Rotation:[0f,0f],view_range:0f}
+execute at @s if entity @s[y_rotation=90] run summon item_display ^ ^ ^0.1 {Tags:["eye"],item:{id:"minecraft:string",Count:1b,tag:{CustomModelData:30}},Rotation:[90f,0f],view_range:0f}
+execute at @s if entity @s[y_rotation=-90] run summon item_display ^ ^ ^0.1 {Tags:["eye"],item:{id:"minecraft:string",Count:1b,tag:{CustomModelData:30}},Rotation:[-90f,0f],view_range:0f}
+execute at @s if entity @s[y_rotation=-180] run summon item_display ^ ^ ^0.1 {Tags:["eye"],item:{id:"minecraft:string",Count:1b,tag:{CustomModelData:30}},Rotation:[-180f,0f],view_range:0f}

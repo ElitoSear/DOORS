@@ -1,0 +1,3 @@
+execute if entity @e[tag=solutionpaper,nbt={ArmorItems:[{tag:{CustomModelData:103}}]}] positioned -10 67 15 run function doors:library/solution
+execute if entity @e[tag=solutionpaper,nbt={ArmorItems:[{tag:{CustomModelData:102}}]}] positioned -10 65 15 run function doors:library/solution
+execute if entity @e[tag=solutionpaper,nbt={ArmorItems:[{tag:{CustomModelData:101}}]}] positioned -10 63 15 run function doors:library/solution

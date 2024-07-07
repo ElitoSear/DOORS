@@ -1,0 +1,1 @@
+tag @e[tag=automaticdoor,limit=1,sort=nearest,distance=..3] remove closed

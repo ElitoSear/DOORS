@@ -1,0 +1,3 @@
+execute unless entity @e[type=text_display,tag=debug] at @s run summon text_display ^ ^ ^4 {Tags:["debug"],text:'[{"text": "playercurrentdoor: "},{"score":{"name": "ElitoSear","objective": "playercurrentdoor"}},{"text": "\\n"},{"text": "playermaxdoor: "},{"score":{"name": "ElitoSear","objective": "playermaxdoor"}}]'}
+execute at @s anchored eyes run tp @e[type=text_display,tag=debug] ^ ^ ^2 facing entity @s eyes
+execute at @s anchored eyes positioned ^ ^ ^2 run data merge entity @e[type=text_display,tag=debug,limit=1,sort=nearest] {text:'[{"text": "playercurrentdoor: "},{"score":{"name": "ElitoSear","objective": "playercurrentdoor"}},{"text": "\\n"},{"text": "playermaxdoor: "},{"score":{"name": "ElitoSear","objective": "playermaxdoor"}}]'}

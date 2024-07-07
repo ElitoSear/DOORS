@@ -1,0 +1,19 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+            "player": {},
+          "damage": {
+            "source_entity": {
+              "nbt": "{Tags:[\"seekhanddamagesource\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "doors:for_advancements/death/seek/hand"
+    }
+  }
+  

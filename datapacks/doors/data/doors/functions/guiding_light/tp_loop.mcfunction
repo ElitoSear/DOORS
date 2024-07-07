@@ -1,0 +1,2 @@
+execute if entity @e[distance=..3,type=armor_stand,tag=guiding_light] positioned ~ ~7 ~ run function doors:guiding_light/tp_loop
+execute unless entity @e[distance=..3,type=armor_stand,tag=guiding_light] run function doors:guiding_light/if_player

@@ -1,0 +1,2 @@
+execute as @a if predicate doors:is_sprinting run attribute @s minecraft:generic.movement_speed base set 0.077
+execute as @a unless predicate doors:is_sprinting run attribute @s minecraft:generic.movement_speed base set 0.1

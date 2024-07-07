@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:match_tool",
+    "predicate": {
+      "items": [
+        "minecraft:string"
+      ],
+      "nbt": "{CustomModelData:96}"
+    }
+  }
+  

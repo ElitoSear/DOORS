@@ -1,0 +1,2 @@
+scoreboard objectives add flashlight minecraft.used:warped_fungus_on_a_stick
+scoreboard objectives add flashlighttimer dummy

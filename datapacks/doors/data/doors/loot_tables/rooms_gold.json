@@ -1,0 +1,106 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:6,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 100
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 2,
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:5,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 75
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 3,
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:4,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 50
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 4,
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:3,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 25
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 5,
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:2,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 10
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 6,
+            "name": "minecraft:gold_ingot",
+            "functions": [
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{CustomModelData:1,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              },
+              {
+                "function": "minecraft:set_count",
+                "count": 5
+              }
+            ]
+          }
+        ],
+        "conditions": [
+          {
+            "condition": "minecraft:random_chance",
+            "chance": 0.1
+          }
+        ]
+      }
+    ]
+  }
+  

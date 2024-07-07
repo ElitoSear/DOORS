@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:string",
+        "nbt": "{CustomModelData:144}"
+      },
+      "title": {
+        "translate": "achievement.doors.take_a_breather"
+      },
+      "description": {
+        "translate": "achievement.doors.take_a_breather.desc",
+        "color": "white",
+        "extra": [
+          {
+            "translate": "achievement.doors.take_a_breather.directions",
+            "color": "gray"
+          }
+        ]
+      },
+      "frame": "task",
+      "hidden": false
+    },
+    "parent": "doors:achievements/achievement19",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "doors:playachievementsound"
+    },
+    "sends_telemetry_event": false
+  }
+  

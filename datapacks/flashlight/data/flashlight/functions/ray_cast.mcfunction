@@ -1,0 +1,2 @@
+execute positioned ^ ^ ^ unless block ^ ^ ^.5 #flashlight:flashlight_through_blocks unless entity @e[type=marker,tag=flashlight,distance=..1.0] run summon marker ~ ~ ~ {Tags:["flashlight"]}
+execute as @s[distance=..100] positioned ^ ^ ^0.5 if block ~ ~ ~ #flashlight:flashlight_through_blocks run function flashlight:ray_cast

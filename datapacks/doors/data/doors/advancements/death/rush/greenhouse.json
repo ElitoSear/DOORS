@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "player": {
+          "location": {
+            "biome": "doors:greenhouse"
+          }
+        },
+        "damage": {
+          "source_entity": {
+            "nbt": "{Tags:[\"rushdamagesource\"]}"
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "doors:for_advancements/death/rush/greenhouse"
+  }
+}

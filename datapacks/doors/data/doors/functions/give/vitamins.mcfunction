@@ -1,0 +1,1 @@
+give @s snowball{CustomModelData:1,display:{Name:'[{"translate":"item.doors.vitamins","italic":false}]'}}

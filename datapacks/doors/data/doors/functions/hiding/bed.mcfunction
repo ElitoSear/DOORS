@@ -1,0 +1,1 @@
+execute at @s run tp @a[scores={kickedout=1..5},distance=..1] ^ ^1.5 ^2

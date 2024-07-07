@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:string",
+        "nbt": "{CustomModelData:125}"
+      },
+      "title": {
+        "translate": "achievement.doors.betrayal"
+      },
+      "description": {
+        "translate": "achievement.doors.betrayal.desc",
+        "color": "white",
+        "extra": [
+          {
+            "translate": "achievement.doors.betrayal.directions",
+            "color": "gray"
+          }
+        ]
+      },
+      "frame": "task",
+      "hidden": false
+    },
+    "parent": "doors:achievements/achievement2",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "doors:playachievementsound"
+    },
+    "sends_telemetry_event": false
+  }
+  

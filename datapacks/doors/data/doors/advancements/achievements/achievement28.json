@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:string",
+        "nbt": "{CustomModelData:150}"
+      },
+      "title": {
+        "translate": "achievement.doors.sshh"
+      },
+      "description": {
+        "translate": "achievement.doors.sshh.desc",
+        "color": "white",
+        "extra": [
+          {
+            "translate": "achievement.doors.sshh.directions",
+            "color": "gray"
+          }
+        ]
+      },
+      "frame": "task",
+      "hidden": false
+    },
+    "parent": "doors:achievements/achievement1",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "doors:playachievementsound"
+    },
+    "sends_telemetry_event": false
+  }
+  

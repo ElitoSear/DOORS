@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:string",
+        "nbt": "{CustomModelData:127}"
+      },
+      "title": {
+        "translate": "achievement.doors.interconnected"
+      },
+      "description": {
+        "translate": "achievement.doors.interconnected.desc",
+        "color": "white",
+        "extra": [
+          {
+            "translate": "achievement.doors.interconnected.directions",
+            "color": "gray"
+          }
+        ]
+      },
+      "frame": "task",
+      "hidden": false
+    },
+    "parent": "doors:achievements/achievement1",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "doors:playachievementsound"
+    },
+    "sends_telemetry_event": false
+  }
+  

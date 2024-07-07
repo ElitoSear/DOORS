@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "minecraft:custom/lights"
+    },
+    "facing=west": {
+      "model": "minecraft:custom/lights",
+      "y": 270
+    },
+    "facing=east": {
+      "model": "minecraft:custom/lights",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "minecraft:custom/lights",
+      "y": 180
+    }
+  }
+}

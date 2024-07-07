@@ -1,0 +1,34 @@
+{
+    "display": {
+      "icon": {
+        "item": "minecraft:string",
+        "nbt": "{CustomModelData:132}"
+      },
+      "title": {
+        "translate": "achievement.doors.two_steps_forward"
+      },
+      "description": {
+        "translate": "achievement.doors.two_steps_forward.desc",
+        "color": "white",
+        "extra": [
+          {
+            "translate": "achievement.doors.two_steps_forward.directions",
+            "color": "gray"
+          }
+        ]
+      },
+      "frame": "task",
+      "hidden": false
+    },
+    "parent": "doors:achievements/achievement1",
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:impossible"
+      }
+    },
+    "rewards": {
+      "function": "doors:playachievementsound"
+    },
+    "sends_telemetry_event": false
+  }
+  

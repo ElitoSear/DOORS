@@ -1,0 +1,1 @@
+playsound custom:misc.heart_minigame_hit master @a[distance=..1]

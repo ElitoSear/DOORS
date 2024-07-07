@@ -1,0 +1,30 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:entity_hurt_player",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "health": {
+                  "min": 1,
+                  "max": 8
+                }
+              }
+            }
+          ],
+          "damage": {
+            "source_entity": {
+              "nbt": "{Tags:[\"screech\"]}"
+            }
+          }
+        }
+      }
+    },
+    "rewards": {
+      "function": "doors:for_advancements/death/screech/main"
+    }
+  }
+  

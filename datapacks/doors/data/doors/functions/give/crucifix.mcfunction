@@ -1,0 +1,1 @@
+give @s string{CustomModelData:94,display:{Name:'[{"translate":"item.doors.crucifix","italic":false}]'}}

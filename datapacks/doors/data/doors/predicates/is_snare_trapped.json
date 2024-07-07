@@ -1,0 +1,11 @@
+{
+    "condition": "minecraft:entity_scores",
+    "entity": "this",
+    "scores": {
+      "snaretrap": {
+        "min": 1,
+        "max": 2147483647
+      }
+    }
+  }
+  
