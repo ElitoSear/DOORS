@@ -1,5 +1,9 @@
+#First Message
 tellraw @a [{"text":"DOORS","bold":true},{"text":" built-in datapack has loaded correctly!"}]
+
+#Set-Up world spawn for new players
 setworldspawn 34 63 -50
+
 #Scoreboards
 
 scoreboard objectives add joined minecraft.custom:minecraft.leave_game
