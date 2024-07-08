@@ -9,6 +9,8 @@ setworldspawn 34 63 -50
 scoreboard objectives add ambience dummy
 scoreboard objectives add ambience_random dummy
 scoreboard objectives add crucifixed dummy
+scoreboard objectives add guiding_light_id dummy
+scoreboard objectives add guiding_light_message dummy
 scoreboard objectives add joined minecraft.custom:minecraft.leave_game
 scoreboard objectives add playerminimumdoor dummy
 scoreboard objectives add playerminimumroomsdoor dummy
@@ -17,7 +19,6 @@ scoreboard objectives add max_rooms_door_reached dummy
 scoreboard objectives add return dummy
 scoreboard objectives add knobs dummy
 scoreboard objectives add revive trigger
-scoreboard objectives add guiding_light_id dummy
 scoreboard objectives add lighter_use dummy
 scoreboard objectives add flashlight_use dummy
 scoreboard objectives add candle_use dummy
