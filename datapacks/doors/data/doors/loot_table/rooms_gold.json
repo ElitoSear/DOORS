@@ -5,12 +5,18 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 1,
           "name": "minecraft:gold_ingot",
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:6,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.gold\",\"italic\":false}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 6
             },
             {
               "function": "minecraft:set_count",
@@ -20,12 +26,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 2,
           "name": "minecraft:gold_ingot",
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:5,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.gold\",\"italic\":false}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 5
             },
             {
               "function": "minecraft:set_count",
@@ -35,12 +47,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 3,
           "name": "minecraft:gold_ingot",
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:4,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.gold\",\"italic\":false}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 4
             },
             {
               "function": "minecraft:set_count",
@@ -50,12 +68,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 4,
           "name": "minecraft:gold_ingot",
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:3,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.gold\",\"italic\":false}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 3
             },
             {
               "function": "minecraft:set_count",
@@ -65,12 +89,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 5,
           "name": "minecraft:gold_ingot",
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:2,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.gold\",\"italic\":false}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 2
             },
             {
               "function": "minecraft:set_count",
@@ -80,12 +110,18 @@
         },
         {
           "type": "minecraft:item",
-          "weight": 6,
           "name": "minecraft:gold_ingot",
+          "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{CustomModelData:1,display:{Name:'[{\"translate\":\"item.doors.gold\",\"italic\":false}]'}}"
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.gold\",\"italic\":false}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
             },
             {
               "function": "minecraft:set_count",

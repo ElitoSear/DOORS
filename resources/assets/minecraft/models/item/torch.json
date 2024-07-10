@@ -4,14 +4,14 @@
     "layer0": "minecraft:block/torch"
   },
   "overrides": [
-      {"predicate": {"custom_model_data":1}, "model": "custom/lighter"},
-      {"predicate": {"custom_model_data":2}, "model": "custom/crucifixglowing"},
-      {"predicate": {"custom_model_data":3}, "model": "custom/crucifixglowingred"},
-      {"predicate": {"custom_model_data":4}, "model": "custom/crucifixinnercircle"},
-      {"predicate": {"custom_model_data":5}, "model": "custom/crucifixinnercirclefailed"},
-      {"predicate": {"custom_model_data":6}, "model": "custom/crucifixoutercircle"},
-      {"predicate": {"custom_model_data":7}, "model": "custom/crucifixoutercirclefailed"},
-      {"predicate": {"custom_model_data":8}, "model": "custom/crucifixchains"},
-      {"predicate": {"custom_model_data":9}, "model": "custom/crucifixchainsfailed"}
+      {"predicate": {"custom_model_data":1}, "model": "item/lighter"},
+      {"predicate": {"custom_model_data":2}, "model": "crucifix/glowing"},
+      {"predicate": {"custom_model_data":3}, "model": "crucifix/glowing_failed"},
+      {"predicate": {"custom_model_data":4}, "model": "crucifix/inner_circle"},
+      {"predicate": {"custom_model_data":5}, "model": "crucifix/inner_circle_failed"},
+      {"predicate": {"custom_model_data":6}, "model": "crucifix/outer_circle"},
+      {"predicate": {"custom_model_data":7}, "model": "crucifix/outer_circle_failed"},
+      {"predicate": {"custom_model_data":8}, "model": "crucifix/chains"},
+      {"predicate": {"custom_model_data":9}, "model": "crucifix/chains_failed"}
   ]
 }
