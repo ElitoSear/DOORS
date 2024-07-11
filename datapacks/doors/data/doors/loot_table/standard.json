@@ -1,75 +1,277 @@
 {
-    "pools": [
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:string",
-            "weight": 1,
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:custom_name": "{\"translate\":\"item.doors.skeleton_key\",\"italic\":false}"
-                }
-              },
-              {
-                "function": "minecraft:set_custom_model_data",
-                "value": 96
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:torch",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.lighter\",\"italic\":false}",
+                "minecraft:custom_data": "{lighter:1b}",
+                "minecraft:max_stack_size": 1
               }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:soul_torch",
-            "weight": 1,
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:custom_name": "{\"translate\":\"item.doors.candle\",\"italic\":false}"
-                }
-              },
-              {
-                "function": "minecraft:set_custom_model_data",
-                "value": 2
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:snowball",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.vitamins\",\"italic\":false}",
+                "minecraft:custom_data": "{vitamins:1b}",
+                "minecraft:max_stack_size": 3
               }
-            ]
-          }
-        ]
-      },
-      {
-        "rolls": 1,
-        "entries": [
-          {
-            "type": "minecraft:item",
-            "name": "minecraft:warped_fungus_on_a_stick",
-            "weight": 1,
-            "functions": [
-              {
-                "function": "minecraft:set_components",
-                "components": {
-                  "minecraft:custom_name": "{\"translate\":\"item.doors.flashlight\",\"italic\":false}",
-                  "minecraft:custom_data": "{flashlight:1b}",
-                  "minecraft:max_stack_size": 1,
-                  "minecraft:max_damage": 2400,
-                  "minecraft:damage": 1200
-                }
-              },
-              {
-                "function": "minecraft:set_custom_model_data",
-                "value": 2
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:flint",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.lockpick\",\"italic\":false}",
+                "minecraft:custom_data": "{lockpick:1b,key:1b}",
+                "minecraft:max_stack_size": 3
               }
-            ]
-          }
-        ]
-      }
-    ]
-  }
-  
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.crucifix\",\"italic\":false}",
+                "minecraft:custom_data": "{crucifix:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 4
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:string",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.skeleton_key\",\"italic\":false}",
+                "minecraft:custom_data": "{skeleton_key:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 3
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:soul_torch",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.candle\",\"italic\":false}",
+                "minecraft:custom_data": "{candle:1b}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:max_damage": 1500
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 2
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:warped_fungus_on_a_stick",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.flashlight\",\"italic\":false}",
+                "minecraft:custom_data": "{flashlight:1b}",
+                "minecraft:max_stack_size": 1,
+                "minecraft:max_damage": 2400,
+                "minecraft:damage": 1200
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.bandage\",\"italic\":false}",
+                "minecraft:custom_data": "{bandage:1b}",
+                "minecraft:max_stack_size": 1
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            },
+            {
+              "condition": "minecraft:entity_scores",
+              "entity": "this",
+              "scores": {
+                "health": {
+                  "min": 1,
+                  "max": 19
+                }
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.gold\",\"italic\":false}",
+                "minecraft:custom_data": "{gold:1b}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 50
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.gold\",\"italic\":false}",
+                "minecraft:custom_data": "{gold:1b}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 25
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.gold\",\"italic\":false}",
+                "minecraft:custom_data": "{gold:1b}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 10
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"translate\":\"item.doors.gold\",\"italic\":false}",
+                "minecraft:custom_data": "{gold:1b}"
+              }
+            },
+            {
+              "function": "minecraft:set_custom_model_data",
+              "value": 1
+            },
+            {
+              "function": "minecraft:set_count",
+              "count": 5
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

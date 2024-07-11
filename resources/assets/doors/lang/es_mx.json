@@ -35,7 +35,7 @@
   "text.doors.cannot_revive_multiplayer":"No puedes revivirte si no hay más jugadores.",
   "text.doors.cannot_revive":"No puedes revivirte en este momento.",
   "text.doors.cannot_revive_alive":"No puedes revivirte, aún estás vivo.",
-"text.doors.not_enough_knobs":"No tienes suficientes perillas. (1000)",
+  "text.doors.not_enough_knobs":"No tienes suficientes perillas. (1000)",
 
   "text.doors.something_is_stopping_you_from_hidding":"Algo no deja esconderte...",
   "text.doors.the_hotel":"El Hotel",
