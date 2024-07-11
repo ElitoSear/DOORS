@@ -1,15 +1,13 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "items": [
-            "minecraft:string"
-          ],
-          "nbt": "{CustomModelData:94}"
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:custom_data": "{crucifix:1b}"
         }
       }
     }
   }
-  
+}

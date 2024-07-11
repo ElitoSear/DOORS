@@ -25,8 +25,27 @@
         "predicate": {
           "position": {
             "x": {
-              "min": -4,
-              "max": 14
+              "min": 14,
+              "max": 23
+            },
+            "y": {
+              "min": 63,
+              "max": 68
+            },
+            "z": {
+              "min": -56,
+              "max": -18
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "predicate": {
+          "position": {
+            "x": {
+              "min": 23,
+              "max": 47
             },
             "y": {
               "min": 63,

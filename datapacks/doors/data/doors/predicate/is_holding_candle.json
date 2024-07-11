@@ -1,15 +1,13 @@
 {
-    "condition": "minecraft:entity_properties",
-    "entity": "this",
-    "predicate": {
-      "equipment": {
-        "mainhand": {
-          "items": [
-            "minecraft:soul_torch"
-          ],
-          "nbt": "{CustomModelData:3}"
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "equipment": {
+      "mainhand": {
+        "components": {
+          "minecraft:custom_data": "{candle:1b}"
         }
       }
     }
   }
-  
+}
