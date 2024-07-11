@@ -1,5 +1,6 @@
 {
-    "values": [
-        "doors:tick"
-    ]
+	"values": [
+		"doors:tick",
+		"animated_java:tick"
+	]
 }

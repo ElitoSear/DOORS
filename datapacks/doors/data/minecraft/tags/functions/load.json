@@ -1,5 +1,6 @@
 {
-    "values": [
-      "doors:load"
-    ]
+	"values": [
+		"doors:load",
+		"animated_java:doors/zzzzzzzz/load"
+	]
 }
