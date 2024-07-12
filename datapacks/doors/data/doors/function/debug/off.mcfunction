@@ -1,0 +1,3 @@
+gamerule reducedDebugInfo true
+gamerule sendCommandFeedback false
+time set midnight
