@@ -63,8 +63,8 @@
 			"locked": false,
 			"render_order": "default",
 			"allow_mirror_modeling": true,
-			"from": [-4.25, 28.5, -4.25],
-			"to": [4.25, 37, 4.25],
+			"from": [-3.75, 28.5, -3.75],
+			"to": [3.75, 37, 3.75],
 			"autouv": 0,
 			"color": 0,
 			"origin": [0, 28, 0],
@@ -3832,7 +3832,7 @@
 			"uuid": "a0746dc0-b672-ba45-fe43-0d9203a2f285",
 			"export": true,
 			"mirror_uv": false,
-			"isOpen": true,
+			"isOpen": false,
 			"locked": false,
 			"visibility": true,
 			"autouv": 0,
@@ -4340,7 +4340,7 @@
 			"name": "library_cinematic",
 			"loop": "once",
 			"override": false,
-			"length": 5.7,
+			"length": 1.5,
 			"snapping": 20,
 			"selected": true,
 			"anim_time_update": "",
@@ -5176,9 +5176,9 @@
 							"channel": "rotation",
 							"data_points": [
 								{
-									"x": "0",
-									"y": "0",
-									"z": 80
+									"x": 7.5,
+									"y": 0,
+									"z": 35
 								}
 							],
 							"uuid": "f3149842-0099-6151-934a-7a0a63e634c9",
@@ -5280,7 +5280,7 @@
 							"channel": "rotation",
 							"data_points": [
 								{
-									"x": "0",
+									"x": -80,
 									"y": "0",
 									"z": "0"
 								}
@@ -5342,9 +5342,9 @@
 							"channel": "rotation",
 							"data_points": [
 								{
-									"x": "0",
-									"y": "0",
-									"z": "0"
+									"x": -64.58623,
+									"y": -37.15855,
+									"z": -16.0129
 								}
 							],
 							"uuid": "9eac1fec-c247-a965-7a63-ddab9f1fa810",
