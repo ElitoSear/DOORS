@@ -1,9 +1,9 @@
 {
 	"meta": {
 		"format": "animated_java_blueprint",
-		"format_version": "1.0.0",
+		"format_version": "1.1.0",
 		"uuid": "3972f50e-258f-ded4-52e8-256789e439f1",
-		"save_location": "",
+		"save_location": "C:\\Users\\PC\\Desktop\\Projects\\DOORS\\resources\\assets\\doors\\models\\entity\\seek\\seek_hand.ajblueprint",
 		"last_used_export_namespace": "seek_hand"
 	},
 	"blueprint_settings": {
@@ -486,21 +486,9 @@
 			},
 			"type": "cube",
 			"uuid": "69d06668-c3c8-6bf2-f2f2-11c10af87b98"
-		},
-		{
-			"name": "commands",
-			"position": [0, 0, 0],
-			"rotation": [0, 0, 0],
-			"ignore_inherited_scale": false,
-			"visibility": true,
-			"locked": false,
-			"config": null,
-			"uuid": "72da58a0-d386-e894-b3ad-e70158ad4411",
-			"type": "locator"
 		}
 	],
 	"outliner": [
-		"72da58a0-d386-e894-b3ad-e70158ad4411",
 		{
 			"name": "root",
 			"origin": [0, 8, 0],
