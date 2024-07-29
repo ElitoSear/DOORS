@@ -72,101 +72,24 @@
         },
         {
             "type": "bitmap",
-            "file": "doors:item/keyicon.png",
+            "file": "doors:icon/key.png",
             "ascent": 2,
             "height": 22,
             "chars": ["\uE011"]
         },
         {
             "type": "bitmap",
-            "file": "doors:item/a90warning.png",
-            "ascent": 0,
-            "height": 50,
-            "chars": ["\uE012"]
-        },
-        {
-            "type": "bitmap",
-            "file": "doors:item/a90block.png",
-            "ascent": 25,
-            "height": 50,
-            "chars": ["\uE013"]
-        },
-        {
-            "type": "bitmap",
-            "file": "doors:item/a90jumpscare.png",
-            "ascent": 30,
-            "height": 75,
-            "chars": ["\uE014"]
-        },
-        {
-            "type": "bitmap",
-            "file": "doors:item/doorslogoend.png",
+            "file": "doors:misc/logo.png",
             "ascent": 70,
             "height": 150,
-            "chars": ["\uE015"]
-        },
-        {
-            "type": "bitmap",
-            "file": "doors:item/rush.png",
-            "ascent": 25,
-            "height": 50,
-            "chars": ["\uE016"]
-        },
-        {
-            "type": "bitmap",
-            "file": "doors:item/rushscreamer.png",
-            "ascent": 100,
-            "height": 200,
-            "chars": ["\uE017"]
-        },
-        {
-            "type": "bitmap",
-            "file": "doors:item/ambush.png",
-            "ascent": 25,
-            "height": 50,
-            "chars": ["\uE018"]
-        },
-        {
-            "type": "bitmap",
-            "file": "doors:item/ambush.png",
-            "ascent": 100,
-            "height": 200,
-            "chars": ["\uE019"]
-        },
-        {
-            "type": "bitmap",
-            "file": "doors:item/getout1.png",
-            "ascent": 50,
-            "height": 100,
-            "chars": ["\uE020"]
-        },
-        {
-            "type": "bitmap",
-            "file": "doors:item/turnaround.png",
-            "ascent": 50,
-            "height": 100,
-            "chars": ["\uE021"]
-        },
-        {
-            "type": "bitmap",
-            "file": "doors:item/runaway.png",
-            "ascent": 50,
-            "height": 100,
-            "chars": ["\uE022"]
-        },
-        {
-            "type": "bitmap",
-            "file": "doors:item/seekjumpscare.png",
-            "ascent": 50,
-            "height": 100,
-            "chars": ["\uE023"]
+            "chars": ["\uE012"]
         },
         {
             "type": "bitmap",
             "file": "doors:item/black_screen.png",
             "ascent": 50,
             "height": 100,
-            "chars": ["\uE024"]
+            "chars": ["\uE013"]
         }
     ]
 }

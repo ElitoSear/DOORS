@@ -1,0 +1,81 @@
+{
+    "providers":[
+        {
+            "type": "bitmap",
+            "file": "doors:entity/a_90/warning.png",
+            "ascent": 0,
+            "height": 50,
+            "chars": ["\uE001"]
+        },
+        {
+            "type": "bitmap",
+            "file": "doors:entity/a_90/stop.png",
+            "ascent": 25,
+            "height": 50,
+            "chars": ["\uE002"]
+        },
+        {
+            "type": "bitmap",
+            "file": "doors:entity/a_90/jumpscare.png",
+            "ascent": 30,
+            "height": 75,
+            "chars": ["\uE003"]
+        },
+        {
+            "type": "bitmap",
+            "file": "doors:entity/rush/rush.png",
+            "ascent": 25,
+            "height": 50,
+            "chars": ["\uE004"]
+        },
+        {
+            "type": "bitmap",
+            "file": "doors:entity/rush/screamer.png",
+            "ascent": 100,
+            "height": 200,
+            "chars": ["\uE005"]
+        },
+        {
+            "type": "bitmap",
+            "file": "doors:entity/ambush/ambush.png",
+            "ascent": 25,
+            "height": 50,
+            "chars": ["\uE006"]
+        },
+        {
+            "type": "bitmap",
+            "file": "doors:entity/ambush/ambush.png",
+            "ascent": 100,
+            "height": 200,
+            "chars": ["\uE007"]
+        },
+        {
+            "type": "bitmap",
+            "file": "doors:entity/hide_layout.png",
+            "ascent": 50,
+            "height": 100,
+            "chars": ["\uE008"]
+        },
+        {
+            "type": "bitmap",
+            "file": "doors:entity/halt/turn_around.png",
+            "ascent": 50,
+            "height": 100,
+            "chars": ["\uE009"]
+        },
+        {
+            "type": "bitmap",
+            "file": "doors:entity/halt/hit.png",
+            "ascent": 50,
+            "height": 100,
+            "chars": ["\uE010"]
+        },
+        {
+            "type": "bitmap",
+            "file": "doors:entity/seek/jumpscare.png",
+            "ascent": 50,
+            "height": 100,
+            "chars": ["\uE011"]
+        }
+    ]
+}
