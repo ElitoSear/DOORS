@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "doors:misc/drawer",
+		"0": "block/dark_oak_planks",
 		"1": "doors:misc/drawer_knob",
-		"particle": "doors:misc/drawer"
+		"particle": "block/dark_oak_planks"
 	},
 	"elements": [
 		{

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "item/spruce_planks",
-		"particle": "item/spruce_planks"
+		"0": "block/spruce_planks",
+		"particle": "block/spruce_planks"
 	},
 	"elements": [
 		{

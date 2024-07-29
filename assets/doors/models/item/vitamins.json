@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/vitamins",
-		"particle": "item/vitamins"
+		"0": "doors:item/vitamins",
+		"particle": "doors:item/vitamins"
 	},
 	"elements": [
 		{

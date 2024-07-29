@@ -1,10 +1,11 @@
 {
 	"credit": "Elito",
 	"ambientocclusion": false,
-	"texture_size": [128, 128],
+	"texture_size": [256, 256],
 	"textures": {
-		"0": "item/NVCS-3000",
-		"particle": "item/NVCS-3000"
+		"0": "doors:item/nvcs_3000",
+		"1": "doors:item/nvcs_3000_screen",
+		"particle": "doors:item/nvcs_3000"
 	},
 	"elements": [
 		{
@@ -17,6 +18,18 @@
 				"west": {"uv": [0, 9.375, 0.5, 10], "texture": "#0"},
 				"up": {"uv": [0, 9.375, 7.5, 10], "texture": "#0"},
 				"down": {"uv": [0, 9.375, 7.5, 10], "texture": "#0"}
+			}
+		},
+		{
+			"from": [15, 0.5, 7],
+			"to": [15.5, 1, 8],
+			"faces": {
+				"north": {"uv": [0, 9.375, 0.625, 10], "texture": "#0"},
+				"east": {"uv": [0, 9.375, 0.4375, 9.625], "texture": "#0"},
+				"south": {"uv": [0, 9.375, 0.6875, 10], "texture": "#0"},
+				"west": {"uv": [0, 9.375, 0.5, 10], "texture": "#0"},
+				"up": {"uv": [0, 9.375, 0.3125, 10], "texture": "#0"},
+				"down": {"uv": [0, 9.375, 0.125, 10], "texture": "#0"}
 			}
 		},
 		{
@@ -80,15 +93,18 @@
 			}
 		},
 		{
+			"from": [5, 1, 7.4],
+			"to": [15, 8.5, 7.4],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 0, -0.1]},
+			"faces": {
+				"north": {"uv": [0, 0, 12.5, 9.375], "texture": "#0"}
+			}
+		},
+		{
 			"from": [5, 1, 7.5],
 			"to": [15, 8.5, 7.5],
 			"faces": {
-				"north": {"uv": [0, 0, 12.5, 9.375], "texture": "#0"},
-				"east": {"uv": [0, 0, 0.5, 0.875], "texture": "#0"},
-				"south": {"uv": [12.5, 0, 0, 9.375], "texture": "#0"},
-				"west": {"uv": [0, 0, 0.5, 0.875], "texture": "#0"},
-				"up": {"uv": [0, 0, 1.375, 0.5], "texture": "#0"},
-				"down": {"uv": [0, 0, 1.375, 0.5], "texture": "#0"}
+				"north": {"uv": [0, 2, 16, 14], "texture": "#1"}
 			}
 		},
 		{
@@ -129,7 +145,8 @@
 		},
 		"firstperson_righthand": {
 			"rotation": [0, 180, 0],
-			"translation": [-5.5, 11.5, -1.25]
+			"translation": [-6.5, 12, -1.25],
+			"scale": [1.2, 1.2, 1.2]
 		},
 		"firstperson_lefthand": {
 			"rotation": [0, 180, 0],
@@ -151,5 +168,13 @@
 		"fixed": {
 			"translation": [0, 3.25, 0]
 		}
-	}
+	},
+	"groups": [
+		{
+			"name": "bone",
+			"origin": [0, 0, 0],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+		}
+	]
 }

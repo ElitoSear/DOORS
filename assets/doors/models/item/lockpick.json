@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "item/copper_block",
-		"particle": "item/copper_block"
+		"0": "doors:misc/copper_block",
+		"particle": "doors:misc/copper_block"
 	},
 	"elements": [
 		{

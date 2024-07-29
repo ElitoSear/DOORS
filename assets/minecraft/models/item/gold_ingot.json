@@ -4,11 +4,11 @@
     "layer0": "minecraft:item/gold_ingot"
   },
   "overrides": [
-      {"predicate": {"custom_model_data":1}, "model": "custom/gold"},
-      {"predicate": {"custom_model_data":2}, "model": "custom/gold_10"},
-      {"predicate": {"custom_model_data":3}, "model": "custom/gold_25"},
-      {"predicate": {"custom_model_data":4}, "model": "custom/gold_50"},
-      {"predicate": {"custom_model_data":5}, "model": "custom/gold_75"},
-      {"predicate": {"custom_model_data":6}, "model": "custom/gold_100"}
+      {"predicate": {"custom_model_data":1}, "model": "doors:gold/coin"},
+      {"predicate": {"custom_model_data":2}, "model": "doors:gold/10"},
+      {"predicate": {"custom_model_data":3}, "model": "doors:gold/25"},
+      {"predicate": {"custom_model_data":4}, "model": "doors:gold/50"},
+      {"predicate": {"custom_model_data":5}, "model": "doors:gold/75"},
+      {"predicate": {"custom_model_data":6}, "model": "doors:gold/100"}
   ]
 }

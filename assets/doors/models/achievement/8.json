@@ -6,7 +6,7 @@
         128
     ],
     "textures": {
-        "0": "achievement/8"
+        "0":"doors:achievement/8"
     },
     "elements": [
         {

@@ -3,9 +3,9 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/cushion",
-		"1": "item/copper_block",
-		"particle": "item/cushion"
+		"0": "doors:misc/cushion",
+		"1": "doors:misc/copper_block",
+		"particle": "doors:misc/cushion"
 	},
 	"elements": [
 		{

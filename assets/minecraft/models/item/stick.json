@@ -14,31 +14,9 @@
       {"predicate": {"custom_model_data":8}, "model":"custom/number7"},
       {"predicate": {"custom_model_data":9}, "model":"custom/number8"},
       {"predicate": {"custom_model_data":10}, "model":"custom/number9"},
-      {"predicate": {"custom_model_data":11}, "model":"custom/seekchase1"},
-      {"predicate": {"custom_model_data":12}, "model":"custom/seekchase2"},
-      {"predicate": {"custom_model_data":13}, "model":"custom/seekchase3"},
-      {"predicate": {"custom_model_data":14}, "model":"custom/seekchase4"},
-      {"predicate": {"custom_model_data":15}, "model":"custom/seekchase5"},
-      {"predicate": {"custom_model_data":16}, "model":"custom/seekchase6"},
-      {"predicate": {"custom_model_data":17}, "model":"custom/seekchase7"},
-      {"predicate": {"custom_model_data":18}, "model":"custom/seekchase8"},
-      {"predicate": {"custom_model_data":19}, "model":"custom/seekchase9"},
-      {"predicate": {"custom_model_data":20}, "model":"custom/seekchase10"},
-      {"predicate": {"custom_model_data":21}, "model":"custom/seekchase11"},
-      {"predicate": {"custom_model_data":22}, "model":"custom/seekchase12"},
-      {"predicate": {"custom_model_data":23}, "model":"custom/seekchase13"},
-      {"predicate": {"custom_model_data":31}, "model":"custom/seekrunning1"},
-      {"predicate": {"custom_model_data":32}, "model":"custom/seekrunning2"},
-      {"predicate": {"custom_model_data":33}, "model":"custom/seekrunning3"},
-      {"predicate": {"custom_model_data":34}, "model":"custom/seekrunning4"},
       {"predicate": {"custom_model_data":41}, "model":"custom/solution"},
       {"predicate": {"custom_model_data":42}, "model":"custom/solution2"},
-      {"predicate": {"custom_model_data":43}, "model":"custom/solution3"},
-      {"predicate": {"custom_model_data":51}, "model":"custom/heartminigametutorial"},
-      {"predicate": {"custom_model_data":52}, "model":"custom/heartminigame"},
-      {"predicate": {"custom_model_data":53}, "model":"custom/heartminigamefailed"},
-      {"predicate": {"custom_model_data":54}, "model":"custom/heartminigameright"},
-      {"predicate": {"custom_model_data":55}, "model":"custom/heartminigameleft"}
+      {"predicate": {"custom_model_data":43}, "model":"custom/solution3"}
 
   ]
 }

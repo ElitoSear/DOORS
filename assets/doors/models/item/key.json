@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/key",
-		"particle": "item/key"
+		"0": "doors:misc/key",
+		"particle": "doors:misc/key"
 	},
 	"elements": [
 		{

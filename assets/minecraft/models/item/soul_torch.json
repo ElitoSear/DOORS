@@ -4,8 +4,7 @@
     "layer0": "minecraft:block/soul_torch"
   },
   "overrides": [
-      {"predicate": {"custom_model_data":1}, "model": "custom/invisible"},
-      {"predicate": {"custom_model_data":2}, "model": "custom/candle"},
-      {"predicate": {"custom_model_data":3}, "model": "custom/NVCS-3000"}
+      {"predicate": {"custom_model_data":1}, "model": "doors:item/invisible"},
+      {"predicate": {"custom_model_data":2}, "model": "doors:item/candle"}
   ]
 }
