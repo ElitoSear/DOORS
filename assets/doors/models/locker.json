@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/locker",
-		"particle": "item/locker"
+		"0": "doors:misc/locker",
+		"particle": "doors:misc/locker"
 	},
 	"elements": [
 		{

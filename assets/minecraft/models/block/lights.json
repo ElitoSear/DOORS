@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/lightstorch",
-		"particle": "item/lightstorch"
+		"0": "doors:misc/torch_lights",
+		"particle": "doors:misc/torch_lights"
 	},
 	"elements": [
 		{

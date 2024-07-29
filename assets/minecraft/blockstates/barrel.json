@@ -1,65 +1,61 @@
 {
   "variants": {
     "facing=down,open=false": {
-      "model": "minecraft:block/barrel",
+      "model": "doors:drawer/closed",
       "uvlock": true,
       "x": 180
     },
     "facing=down,open=true": {
-      "model": "minecraft:block/barrel_open",
+      "model": "doors:drawer/open",
       "uvlock": false,
       "x": 180
     },
     "facing=east,open=false": {
-      "model": "minecraft:custom/drawer",
+      "model": "doors:drawer/closed",
       "uvlock": true,
-      "x": 90,
       "y": 90
     },
     "facing=east,open=true": {
-      "model": "minecraft:custom/draweropen",
+      "model": "doors:drawer/open",
       "uvlock": true,
-      "x": 90,
       "y": 90
     },
     "facing=north,open=false": {
-      "model": "minecraft:custom/drawer",
-      "uvlock": true,
-      "x": 90
+      "model": "doors:drawer/closed",
+      "uvlock": true
     },
     "facing=north,open=true": {
-      "model": "minecraft:custom/draweropen",
-      "uvlock": true,
-      "x": 90
+      "model": "doors:drawer/open",
+      "uvlock": true
     },
     "facing=south,open=false": {
-      "model": "minecraft:custom/drawer",
+      "model": "doors:drawer/closed",
       "uvlock": true,
-      "x": 90,
       "y": 180
     },
     "facing=south,open=true": {
-      "model": "minecraft:custom/draweropen",
+      "model": "doors:drawer/open",
       "uvlock": true,
-      "x": 90,
       "y": 180
     },
     "facing=up,open=false": {
-      "model": "minecraft:block/barrel"
+      "model": "doors:drawer/closed",
+      "x": -90,
+      "y": 180
     },
     "facing=up,open=true": {
-      "model": "minecraft:block/barrel_open"
+      "model": "doors:drawer/open",
+      "x": -90,
+      "y": 180
     },
     "facing=west,open=false": {
-      "model": "minecraft:custom/drawer",
+      "model": "doors:drawer/closed",
       "uvlock": true,
-      "x": 90,
       "y": 270
     },
     "facing=west,open=true": {
-      "model": "minecraft:custom/draweropen",
+      "model": "doors:drawer/open",
       "uvlock": true,
-      "x": 90,
       "y": 270
     }
   }

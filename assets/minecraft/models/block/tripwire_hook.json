@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [48, 48],
 	"textures": {
-		"0": "item/mangrove_planks",
-		"particle": "item/mangrove_planks"
+		"0": "block/spruce_planks",
+		"particle": "block/spruce_planks"
 	},
 	"elements": [
 		{

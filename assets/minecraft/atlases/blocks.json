@@ -1,0 +1,74 @@
+{
+    "sources": [
+        {
+            "type": "directory",
+            "source": "block",
+            "prefix": "block/"
+        },
+        {
+            "type": "directory",
+            "source": "item",
+            "prefix": "item/"
+        },
+        {
+            "type": "directory",
+            "source": "misc",
+            "prefix": "misc/"
+        },
+        {
+            "type": "directory",
+            "source": "achievement",
+            "prefix": "achievement/"
+        },
+        {
+            "type": "directory",
+            "source": "entity",
+            "prefix": "entity/"
+        },
+        {
+            "type": "directory",
+            "source": "breaker",
+            "prefix": "breaker/"
+        },
+        {
+            "type": "directory",
+            "source": "crucifix",
+            "prefix": "crucifix/"
+        },
+        {
+            "type": "directory",
+            "source": "guiding_light",
+            "prefix": "guiding_light/"
+        },
+        {
+            "type": "directory",
+            "source": "heart_beat",
+            "prefix": "heart_beat/"
+        },
+        {
+            "type": "directory",
+            "source": "icon",
+            "prefix": "icon/"
+        },
+        {
+            "type": "directory",
+            "source": "library",
+            "prefix": "library/"
+        },
+        {
+            "type": "directory",
+            "source": "lock",
+            "prefix": "lock/"
+        },
+        {
+            "type": "directory",
+            "source": "painting",
+            "prefix": "painting/"
+        },
+        {
+            "type": "directory",
+            "source": "wardrobe",
+            "prefix": "wardrobe/"
+        }
+    ]
+}

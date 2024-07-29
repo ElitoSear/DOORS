@@ -3,14 +3,14 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/cushion",
-		"particle": "item/cushion"
+		"0": "doors:misc/cushion",
+		"particle": "doors:misc/cushion"
 	},
 	"elements": [
 		{
-			"from": [3, 8, 3],
-			"to": [13, 9, 13],
-			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0.5, 8]},
+			"from": [3, 0, 3],
+			"to": [13, 1, 13],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 0, 8]},
 			"faces": {
 				"north": {"uv": [0, 0, 8, 0.5], "texture": "#0"},
 				"east": {"uv": [0, 0, 8, 0.5], "texture": "#0"},

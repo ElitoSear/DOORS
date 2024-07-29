@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [48, 48],
 	"textures": {
-		"0": "item/electric_room_door",
-		"particle": "item/electric_room_door"
+		"0": "doors:misc/electric_room_door",
+		"particle": "doors:misc/electric_room_door"
 	},
 	"elements": [
 		{

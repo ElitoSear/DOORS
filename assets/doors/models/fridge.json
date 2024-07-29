@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "item/fridge",
-		"particle": "item/fridge"
+		"0": "doors:misc/fridge",
+		"particle": "doors:misc/fridge"
 	},
 	"elements": [
 		{

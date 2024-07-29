@@ -3,8 +3,8 @@
 	"ambientocclusion": false,
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "item/wardrobe",
-		"particle": "item/wardrobe"
+		"0": "doors:wardrobe/wardrobe",
+		"particle": "doors:wardrobe/wardrobe"
 	},
 	"elements": [
 		{
@@ -15,8 +15,7 @@
 				"east": {"uv": [0, 4, 4, 4.5], "texture": "#0"},
 				"south": {"uv": [3.75, 0, 8.25, 0.5], "texture": "#0"},
 				"west": {"uv": [8, 4, 12, 4.5], "texture": "#0"},
-				"up": {"uv": [3.75, 0, 8.25, 4], "texture": "#0"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#0"}
+				"up": {"uv": [3.75, 0, 8.25, 4], "texture": "#0"}
 			}
 		},
 		{
@@ -63,8 +62,7 @@
 				"east": {"uv": [0, 0, 4.5, 0.25], "texture": "#0"},
 				"south": {"uv": [0, 0, 6.5, 0.25], "texture": "#0"},
 				"west": {"uv": [0, 0, 6.5, 0.25], "texture": "#0"},
-				"up": {"uv": [2.5, 0, 9, 4.5], "texture": "#0"},
-				"down": {"uv": [2.5, 0, 9, 4.5], "texture": "#0"}
+				"up": {"uv": [2.5, 0, 9, 4.5], "texture": "#0"}
 			}
 		},
 		{
@@ -80,6 +78,7 @@
 			}
 		},
 		{
+			"name": "right_door",
 			"from": [8, -15, 0],
 			"to": [19, 15, 1],
 			"rotation": {"angle": -22.5, "axis": "y", "origin": [19, 0, 0.5]},
@@ -93,6 +92,7 @@
 			}
 		},
 		{
+			"name": "left_door",
 			"from": [-3, -15, 0],
 			"to": [8, 15, 1],
 			"rotation": {"angle": 22.5, "axis": "y", "origin": [-3, 0, 0.5]},
