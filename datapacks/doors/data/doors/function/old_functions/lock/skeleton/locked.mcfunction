@@ -1,2 +1,0 @@
-execute on target unless entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] at @s run function doors:lock/need_key
-execute on target if entity @s[nbt={SelectedItem:{id:"minecraft:string",tag:{CustomModelData:96}}}] as @e[tag=skeletonlock,limit=1,sort=nearest] run function doors:lock/skeleton/unlock

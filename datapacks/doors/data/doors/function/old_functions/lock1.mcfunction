@@ -1,7 +1,0 @@
-execute at @s on target unless entity @e[tag=automaticdoor,tag=!closed,distance=..4] if entity @s[nbt={SelectedItem:{id:"minecraft:string",Count:1b,tag:{CustomModelData:13}}}] run playsound block.iron_trapdoor.close master @a
-execute at @s on target unless entity @e[tag=automaticdoor,tag=!closed,distance=..4] if entity @s[nbt={SelectedItem:{id:"minecraft:string",Count:1b,tag:{CustomModelData:13}}}] run data merge entity @e[tag=lock1display,limit=1,sort=nearest] {view_range:0f}
-execute at @s on target unless entity @e[tag=automaticdoor,tag=!closed,distance=..4] if entity @s[nbt={SelectedItem:{id:"minecraft:string",Count:1b,tag:{CustomModelData:13}}}] run tag @e[tag=automaticdoor,sort=nearest,limit=1] remove closed
-execute at @s on target if entity @e[tag=automaticdoor,tag=!closed,distance=..4] if entity @s[nbt={SelectedItem:{id:"minecraft:string",Count:1b,tag:{CustomModelData:13}}}] run clear @a minecraft:string{CustomModelData:13}
-execute at @s on target unless entity @e[tag=automaticdoor,tag=!closed,distance=..4] unless entity @s[nbt={SelectedItem:{id:"minecraft:string",Count:1b,tag:{CustomModelData:13}}}] run playsound doors:misc.click master @s
-execute at @s on target unless entity @e[tag=automaticdoor,tag=!closed,distance=..4] unless entity @s[nbt={SelectedItem:{id:"minecraft:string",Count:1b,tag:{CustomModelData:13}}}] run title @s actionbar {"text":"\uE011"}
-execute if entity @s[nbt={interaction:{}}] run data remove entity @s interaction

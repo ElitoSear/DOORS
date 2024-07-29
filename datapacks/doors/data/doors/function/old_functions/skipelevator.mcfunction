@@ -1,2 +1,0 @@
-execute as @e[tag=skipelevatorjamdisplay] run data merge entity @s {block_state:{Properties:{powered:"false"}}}
-execute as @e[tag=skipelevatorjam] at @s run playsound minecraft:block.stone_button.click_off master @a ~ ~ ~

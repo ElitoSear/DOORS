@@ -1,1 +1,0 @@
-give @s torch{CustomModelData:1,display:{Name:'[{"translate":"item.doors.lighter","italic":false}]'},use:1200}

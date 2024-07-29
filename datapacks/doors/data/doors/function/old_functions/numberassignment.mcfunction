@@ -1,3 +1,0 @@
-execute if score @s doornumber matches 0..9 run data merge entity @s {text:'[{"text":"00"},{"score":{"name":"@s","objective":"doornumber"}}]'}
-execute if score @s doornumber matches 10..99 run data merge entity @s {text:'[{"text":"0"},{"score":{"name":"@s","objective":"doornumber"}}]'}
-execute if score @s doornumber matches 100 run data merge entity @s {text:'[{"text":""},{"score":{"name":"@s","objective":"doornumber"}}]'}

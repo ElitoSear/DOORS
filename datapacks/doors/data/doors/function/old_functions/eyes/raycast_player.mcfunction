@@ -1,2 +1,0 @@
-execute align xyz run scoreboard players add @a[dx=0] eyesspawn 1
-execute if block ~ ~ ~ #doors:void_plus_dark_oak_door unless block ~ ~ ~ dark_oak_door[open=false] positioned ^ ^ ^1 run function doors:eyes/raycast_player

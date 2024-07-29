@@ -1,2 +1,0 @@
-execute as @e[tag=figurewardrobe,limit=1,sort=nearest] unless score @s clickright matches 1.. run function doors:for_advancements/click_detection/failed
-execute as @e[tag=figurewardrobe,limit=1,sort=nearest] if score @s clickright matches 1.. run function doors:for_advancements/click_detection/succeess

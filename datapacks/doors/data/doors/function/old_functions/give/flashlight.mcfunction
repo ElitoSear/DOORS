@@ -1,1 +1,0 @@
-give @s warped_fungus_on_a_stick{CustomModelData:2,display:{Name:'[{"translate":"item.doors.flashlight","italic":false}]'},use:3600}

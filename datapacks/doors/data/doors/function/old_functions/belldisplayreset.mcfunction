@@ -1,1 +1,0 @@
-execute as @e[type=item_display,tag=belldisplay] run data merge entity @s {item:{id:"minecraft:string",Count:1b,tag:{CustomModelData:16}}}

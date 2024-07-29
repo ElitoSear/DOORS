@@ -1,1 +1,0 @@
-give @s soul_torch{CustomModelData:3,display:{Name:'[{"translate":"item.doors.candle","italic":false}]'},use:1400}

@@ -1,1 +1,0 @@
-execute as @e[tag=guiding_light_message] run data merge entity @s {transformation:{right_rotation:[0f,0f,-0.01f,1f]},interpolation_duration:100,start_interpolation:1}

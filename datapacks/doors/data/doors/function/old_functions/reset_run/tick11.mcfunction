@@ -1,3 +1,0 @@
-summon minecraft:interaction 40.04 63.50 6.77 {response:1b,width:0.32f,Tags:["lock","locked"],height:0.55f}
-execute positioned 39.99 64.0 6.8 unless entity @e[tag=lockdisplay,distance=..0.5] run summon minecraft:item_display 39.99 64.0 6.8 {Tags:["lockdisplay"],item:{id:"minecraft:string",Count:1b,tag:{CustomModelData:14}}}
-execute positioned 39.99 64.0 6.8 run data merge entity @e[tag=lockdisplay,limit=1,sort=nearest] {view_range:1f,transformation:{translation:[0f,0f,0f],right_rotation:[0f,0f,0f,1f]}}

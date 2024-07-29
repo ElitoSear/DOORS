@@ -1,1 +1,0 @@
-give @s flint{CustomModelData:13,display:{Name:'[{"translate":"item.doors.lockpick","italic":false}]'}}

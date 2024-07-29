@@ -1,2 +1,0 @@
-execute unless entity @s[distance=..3] positioned ~ ~7 ~ run function doors:guiding_light/spectate_loop
-execute if entity @s[distance=..3] run spectate @e[tag=guiding_light,sort=nearest,limit=1,distance=..3]

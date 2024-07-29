@@ -1,2 +1,0 @@
-data merge entity @e[tag=heartminigameleft,limit=1,sort=nearest] {view_range:1.0f,transformation:{translation:[-0.5f,0f,0f]}}
-data merge entity @e[tag=heartminigameleft,limit=1,sort=nearest] {transformation:{translation:[0f,0f,0f]},start_interpolation:0,interpolation_duration:9}

@@ -1,3 +1,0 @@
-execute positioned ~-0.05 ~-0.05 ~-0.05 if entity @e[tag=eyes,dx=0,predicate=!doors:is_being_crucifixed,sort=nearest] unless predicate doors:is_holding_crucifix run function doors:eyes/damage_player
-execute positioned ~-0.05 ~-0.05 ~-0.05 if entity @e[tag=eyes,dx=0,sort=nearest] if predicate doors:is_holding_crucifix run function doors:eyes/crucifix
-execute if block ~ ~ ~ #doors:void_plus_dark_oak_door unless block ~ ~ ~ dark_oak_door[open=false] positioned ^ ^ ^1 run function doors:eyes/raycast_eyes

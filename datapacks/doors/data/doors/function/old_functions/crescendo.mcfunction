@@ -1,3 +1,0 @@
-execute if entity @s[tag=crescendo1] as @e[type=marker,tag=seekeyemarker,sort=nearest,limit=5] at @s unless entity @e[distance=..1,type=item_display,tag=eye] run function doors:summonseekeye
-execute if entity @s[tag=crescendo2] as @e[type=marker,tag=seekeyemarker,sort=nearest,limit=6] at @s unless entity @e[distance=..1,type=item_display,tag=eye] run function doors:summonseekeye
-execute if entity @s[tag=crescendo3] as @e[type=marker,tag=seekeyemarker,sort=nearest,limit=8] at @s unless entity @e[distance=..1,type=item_display,tag=eye] run function doors:summonseekeye

@@ -1,2 +1,0 @@
-tag @s add killed_by_figure_after_door_51_is_open
-tag @s add killed_by_figure_other_means
